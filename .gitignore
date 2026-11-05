@@ -1,10 +1,4 @@
 # 1. Személyes dokumentumok, CV-k és érzékeny adatok kizárása (Zero Data Leak)
-*.pdf
-*.docx
-*.doc
-*.pptx
-*.xlsx
-*.xls
 CV*
 cv*
 *.tmp
@@ -18,3 +12,4 @@ cv*
 
 # 3. Biztonságos fejlesztési állományok kivétele
 !.gitkeep
+

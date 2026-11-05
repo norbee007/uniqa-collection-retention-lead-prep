@@ -1,6 +1,6 @@
 # Uniqa Collection & Retention Lead – Jogszabályfigyelő és Döntéstámogató Rendszer (2026)
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](file:///CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](file:///CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20PowerShell-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/license-Internal%20%2F%20Proprietary-red.svg)]()
 
@@ -36,10 +36,12 @@ uniqa-collection-retention-lead-prep/
 ├── run.bat                            # Gyökérszintű egykattintásos indító launcher (Windows)
 │
 ├── docs/
-│   └── VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.md  # Teljes körű jogi és interjú-stratégiai anyag
+│   ├── VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.md  # Teljes körű jogi és interjú-stratégiai anyag
+│   └── Uniqa_Collection_Retention_Lead_Joganyag_2026.docx  # Strukturált Word dokumentum táblázattal
 │
 ├── scripts/
 │   ├── fetch_feed.ps1                 # Valós idejű Magyar Közlöny RSS feldolgozó és szűrő szkript
+│   ├── generate_docx.ps1              # Word (.docx) automatikus generáló szkript (Word COM)
 │   ├── parse_feed.ps1                 # RSS feed ellenőrző segédszkript
 │   ├── parse_blocks.ps1               # Közlöny lapszám-blokk elemző szkript
 │   └── inspect_item.ps1               # XML és mezőstruktúra-ellenőrző segédlet
