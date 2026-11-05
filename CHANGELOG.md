@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2026-11-05
+
+### Fixed
+- **Magyar ékezetek és karakterkódolás (UTF-8) javítása a Word (.docx) állományban**:
+  - A korábbi PowerShell script beépített ANSI sztring-kezelése miatt elveszett ékezetek (á, é, í, ó, ö, ő, ú, ü, ű) teljes helyreállítása.
+  - A dokumentum szövegének szétválasztása és külső, tiszta UTF-8 kódolású adatbázisba (`data/docx_content.json`) szervezése.
+  - A generátor script (`scripts/generate_docx.ps1`) átírása natív `[System.IO.File]::ReadAllText` UTF-8 beolvasásra, így a Word COM felé már hibátlan Unicode karakterek kerülnek átadásra.
+  - A `docs/Uniqa_Collection_Retention_Lead_Joganyag_2026.docx` újragenerálva teljes és helyes magyar ékezethasználattal.
+
 ## [1.1.0] - 2026-11-05
 
 ### Added
