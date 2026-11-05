@@ -3,28 +3,30 @@
   "footer_text": "Magyar Közlöny & Végrehajtási Joganyag Változások (2026.04.12 – 2026.11.05) | Szakmai Felkészítő",
   "title": "BÍRÓSÁGI VÉGREHAJTÁSI ÉS BIZTOSÍTÁSI SZEKTORÁLIS JOGSZABÁLYVÁLTOZÁSOK",
   "subtitle": "Vezetői Döntéstámogató Elemzés és Interjú-Stratégia (2026.04.12 – 2026.11.05)",
-  "metadata": "Célpozíció: Uniqa Biztosító – Collection & Retention Lead | Dátum: 2026. november 5. | Források: Magyar Közlöny, Indokolások Tára, MNB Rendeletek, Vht., Bit., Gfbt.",
+  "metadata": "Célpozíció: Uniqa Biztosító – Collection & Retention Lead | Dátum: 2026. november 5. | Források: Magyar Közlöny (MK 36-165. számok), Indokolások Tára, MNB Rendeletek, Vht., Bit., Gfbt.",
   "sec1_title": "1. VEZETŐI ÖSSZEFOGLALÓ (EXECUTIVE SUMMARY)",
   "sec1_lead": "A 2026. április 12. és 2026. november 5. közötti időszakban a magyar jogalkotó és az MNB több olyan mélyreható jogszabály-módosítást léptetett életbe, amelyek közvetlenül meghatározzák az Uniqa Collection & Retention területeinek működési modelljét:",
   "sec1_bullets": [
     "Paradigmatikus végrehajtási reform (1158/2026. Korm. hat.): A Kormány elrendelte a bírósági végrehajtás nonprofit, bírósági szervezetrendszeren belüli megvalósításának előkészítését. Ez az önálló bírósági végrehajtói (MBVK) modell államosítását és az eljárások átmeneti lassulását hozza, felértékelve az Uniqa peren kívüli korai (soft) behajtását.",
     "Kényszer-végrehajtási moratórium (2026. évi XVI. tv.): A tisztességtelen fogyasztói szerződések felülvizsgálata érdekében a devizahiteles törvények hatálya alá tartozó ügyekben azonnali végrehajtási stop és kötelező perfüggesztés lépett életbe. Ez érinti a hitelfedezeti élet- és vagyonbiztosítások díjfizetését és a visskereseti jogérvényesítést.",
-    "Új végrehajtás alól mentes juttatás a Vht.-ban (2026. évi XXXIII. tv.): A Vht. 92. § új e) pontja 100%-ban mentesíti a végrehajtás alól az állami iskolakezdési támogatást (100 000 Ft/gyermek). Hatósági átutalási megbízásnál a bankok ezt kötelesek levonásmentesen hagyni.",
+    "Törvényi végrehajtási mentességek kiterjesztése (2026. évi XIV. tv. – Vht. 92. § d) és 92/A. §): Véglegessé vált és törvényi szintre emelkedett az Otthontámogatás (92/A. §) és a működési célú sporttámogatások (92. § d)) teljes körű végrehajtási mentessége és ex lege visszajárása.",
+    "Új szociális mentesítési kategória (2026. évi XXXIII. tv. – Vht. 92. § e)): 100%-ban mentes a bírósági végrehajtás alól az állami iskolakezdési támogatás (100 000 Ft/gyermek). Hatósági átutalási megbízásnál a bankok ezt kötelesek levonásmentesen hagyni a biztosítási díjtartozásokkal szemben is.",
     "Új MNB panaszkezelési keretrendszer (16/2026. MNB rend.): 2026. július 18-tól felváltotta a 66/2021. rendeletet. Szigorúbbá vált az elektronikus kapcsolattartás (ügyfélportál, app), kötelezővé vált a honlapi közzététel és a 30 napos határidő a behajtási viták kezelésében.",
     "Új szuperhatóság (NVVH) felállítása (2026. évi XXXIV. tv.): Átvezetésre került a biztosítási titok alóli mentesség a Bit.-ben és a kötvénynyilvántartási adatszolgáltatás a Gfbt.-ben."
   ],
   "sec2_title": "2. TÉTÉLES JOGSZABÁLYVÁLTOZÁSI LAJSTROM (2026.04.12 – 2026.11.05)",
-  "sec2_lead": "Az alábbi táblázat tartalmazza a vizsgált időszakban a Magyar Közlönyben kihirdetett releváns bírósági végrehajtási és biztosítási szektorális jogszabályokat:",
+  "sec2_lead": "Az alábbi táblázat tartalmazza a vizsgált időszakban a Magyar Közlönyben (MK 2026. évi 36-165. lapszámok) kihirdetett összes releváns bírósági végrehajtási és biztosítási szektorális jogszabályt:",
   "table_rows": [
     ["Közlöny & Dátum", "Jogszabály Száma & Címe", "Módosított Szakasz", "Hatálybalépés", "Fő Tárgykör", "Biztosítási & Végrehajtási Relevancia"],
-    ["MK 2026/53.\n2026.05.18.", "1158/2026. (V. 18.) Korm. hat.", "1994. évi LIII. tv. (Vht.) átfogó felülvizsgálata", "2026.05.18.\n(határidő: 07.14.)", "Bírósági végrehajtás nonprofit állami modellje", "KIEMELTEN RELEVÁNS: Végrehajtói hálózat bírósági integrációja. Az Uniqa hard collection SLA-it át kell hangolni a lassuló végrehajtói kapacitások miatt."],
-    ["MK 2026/63.\n2026.06.03.", "16/2026. (VI. 3.) MNB rend.", "66/2021. MNB rend. helyébe; Bit. 439. § a)", "2026.07.18.", "Pénzügyi szervezetek új panaszkezelési szabályai", "KIFEJEZETTEN RELEVÁNS: A díjhátralék miatti felszólításokra érkező panaszok gyors, digitális kezelése (portál, app); a retention csapat legfőbb korai eszköze."],
+    ["MK 2026/44.\n2026.05.09.", "2026. évi XIV. törvény", "Vht. 92. § új d) pont;\nVht. új 92/A. §", "2026.05.14.", "Vészhelyzeti rendeletek törvényi szintre emelése; Otthontámogatás és sporttámogatás mentesítése", "VÉGREHAJTÁSI & BIZTOSÍTÁSI RELEVANCIA: A Vht. 92/A. § alapján az Otthontámogatás összege teljes egészében mentes a végrehajtás alól, az erre irányuló inkasszó hatálytalan. Lakáshitelekhez kapcsolt hitelfedezeti biztosításoknál és inkasszós díjbehajtásnál kiemelten védett jövedelem."],
+    ["MK 2026/53.\n2026.05.18.", "1158/2026. (V. 18.) Korm. határozat", "1994. évi LIII. tv. (Vht.) átfogó felülvizsgálata", "2026.05.18.\n(határidő: 07.14.)", "Bírósági végrehajtás nonprofit állami modellje", "KIEMELTEN RELEVÁNS: Végrehajtói hálózat bírósági integrációja. Az Uniqa hard collection SLA-it át kell hangolni a lassuló végrehajtói kapacitások miatt."],
+    ["MK 2026/63.\n2026.06.03.", "16/2026. (VI. 3.) MNB rendelet", "66/2021. MNB rend. helyébe; Bit. 439. § a)", "2026.07.18.", "Pénzügyi szervezetek új panaszkezelési szabályai", "KIFEJEZETTEN RELEVÁNS: A díjhátralék miatti felszólításokra érkező panaszok gyors, digitális kezelése (portál, app); a retention csapat legfőbb korai eszköze."],
     ["MK 2026/66.\n2026.06.09.", "2026. évi XVI. törvény", "Devizahiteles tv.-ek; Vht. eljárási szabályok", "2026.06.10.", "Tisztességtelen szerződések végrehajtási moratóriuma", "KIEMELTEN RELEVÁNS: Végrehajtási stop és kötelező perfüggesztés. A hitelfedezeti élet- és vagyonbiztosítások díjköveteléseit retention egyezséggel kell védeni."],
     ["MK 2026/97.\n2026.07.23.", "2026. évi XXXIII. törvény", "Vht. 92. § új e) pont", "2026.07.24.", "Iskolakezdési támogatás (100e Ft) mentesítése", "VÉGREHAJTÁSI RELEVANCIA: A Vht. mentes vagyontárgyak köre bővült. Hatósági átutalási megbízásnál a bankok nem vonhatják le a biztosítási díjtartozásra sem."],
     ["MK 2026/100.\n2026.07.28.", "2026. évi XXXIV. törvény", "Vht. 13., 16., 35. §; Bit. 135-142. §; Gfbt. 47., 51. §", "2026.08.01.\n(fokozatos)", "Nemzeti Vagyonvisszaszerzési Hivatal (NVVH) felállítása", "BIZTOSÍTÁSI & VHT. RELEVANCIA: A biztosítási titok alóli mentesség bővült. Az NVVH közvetlenül igényelhet adatot a biztosítói- és kárnyilvántartásból."],
     ["MK 2026/112.\n2026.08.13.", "2026. évi XL. törvény", "Vht. 253/E. § (5), 253/G. § (3)", "2026.09.01.", "Rendészeti feladatellátás és adatszolgáltatás pontosítása", "VÉGREHAJTÁSI TECHNIKAI: Gépjármű-foglalásoknál és körözéseknél az eljáró rendőri szervek pontosításra kerültek Casco és lízingfedezeteknél."],
     ["MK 2026/131.\n2026.09.11.", "2026. évi XLIX. törvény", "Vht. 16., 23/B., 33. §; Gfbt. 1. § d)", "2026.10.01.", "Vármegye -> Megye terminológiai korrekció", "[Nincs érdemi relevancia - pusztán közigazgatási elnevezésbeli átvezetés]"],
-    ["MK 2026/148.\n2026.10.08.", "10/2026. (X. 8.) SZTFH rend.", "13/2021. SZTFH rend. és kapcsolódó díjrendeletek", "2026.10.15.", "SZTFH hatásköri és árverési terminológia", "KÖZVETETT VHT. RELEVANCIA: Az elektronikus árverési rendszer és igazgatási díjak jogszabályi hivatkozásainak korrekciója."]
+    ["MK 2026/148.\n2026.10.08.", "10/2026. (X. 8.) SZTFH rendelet", "13/2021. SZTFH rend. és kapcsolódó díjrendeletek", "2026.10.15.", "SZTFH hatásköri és árverési terminológia", "KÖZVETETT VHT. RELEVANCIA: Az elektronikus árverési rendszer és igazgatási díjak jogszabályi hivatkozásainak korrekciója."]
   ],
   "sec3_title": "3. TARTALMI VÁLTOZÁSOK ÉS INDOKOLÁSOK ÖSSZEGZÉSE",
   "sec3_items": [
@@ -33,15 +35,19 @@
       "body": "A Kormány döntése értelmében a bírósági végrehajtást ki kell vonni a magánvállalkozási profitorientált keretek közül, és a bíróságok belső szervezeti egységeként kell működtetni. Az igazságügyi miniszter által előkészített reform célja a korrupciós kockázatok felszámolása és az igazságszolgáltatásba vetett közbizalom helyreállítása. Biztosítói követeléskezelési szempontból ez azt jelenti, hogy az átállási időszakban megnő a végrehajtási ügyhátralék, a bírósági apparátus leterheltsége nő, ezért a peresítés előtti soft collection egyezségek felértékelődnek."
     },
     {
-      "title": "3.2. Fogyasztói moratórium és perfüggesztés (2026. évi XVI. törvény)",
+      "title": "3.2. Veszélyhelyzeti szabályok törvényi rögzítése és Otthontámogatás (2026. évi XIV. tv. – Vht. 92/A. §)",
+      "body": "A 2026. május 9-én kihirdetett törvény 34-35. §-a véglegessé tette a Vht. mentességi rendszerében, hogy a közszolgálati és jogszabályi Otthontámogatás teljes összege mentes a bírósági végrehajtás alól (kivéve a jogosulatlan felvétel visszakövetelését). A törvény erejénél fogva az Otthontámogatás levonására irányuló korábbi intézkedések hatálytalanok, és a levont összeg az adósnak visszajár. Biztosítói behajtásnál az otthonfedezeti hiteleknél és inkasszóknál ez mentesített tételként kezelendő."
+    },
+    {
+      "title": "3.3. Fogyasztói moratórium és perfüggesztés (2026. évi XVI. törvény)",
       "body": "A törvény a devizahiteles szerződések felülvizsgálata idejére hivatalból elrendeli a polgári perek soron kívüli felfüggesztését és a végrehajtási cselekmények tilalmát. Az Indokolások Tára (IT 2026/39.) kiemeli: a jogalkotó célja az irreverzibilis adósi vagyonvesztés (pl. ingatlanárverés, kilakoltatás) megakadályozása az egységes Kúria/EUB joggyakorlat megszületéséig. A biztosítónál ez érinti a hitelfedezeti életbiztosítási állományokat: nem szabad hagyni, hogy a felfüggesztett hitelek miatt a biztosítási fedezet automatikusan díjtörléssel megszűnjön."
     },
     {
-      "title": "3.3. Iskolakezdési támogatás mentesítése (Vht. 92. § e) pont – 2026. évi XXXIII. tv.)",
+      "title": "3.4. Iskolakezdési támogatás mentesítése (Vht. 92. § e) pont – 2026. évi XXXIII. tv.)",
       "body": "A jogalkotó a Vht. 92. §-át egy új e) ponttal egészítette ki, 100%-ban mentesítve a végrehajtás alól a gyermekenként 100 000 Ft összegű állami iskolakezdési támogatást. Az Indokolások Tára (IT 2026/50.) szerint ezen összeg nem válhat hitelezői kielégítési alappá. Folyószámla-letiltásnál a pénzintézetek felelőssége a mentesített összeg levonás alóli feloldása."
     },
     {
-      "title": "3.4. Új MNB panaszkezelési keretrendszer (16/2026. (VI. 3.) MNB rendelet)",
+      "title": "3.5. Új MNB panaszkezelési keretrendszer (16/2026. (VI. 3.) MNB rendelet)",
       "body": "Az MNB rendelete július 18-tól váltotta fel a 66/2021. MNB rendeletet. Kötelezővé teszi a digitális panaszkezelési opciókat: szóbeli panasz esetén az ügyfél kérésére kötelező digitális csatornán (ügyfélkapu, e-mail) elküldeni az érdemi választ. Minden biztosítónak kötelező a honlapján elérhetővé tenni a panaszkezelési tájékoztatót. A kintlévőség-kezelési és díjnemfizetési vitákban a panasz kivizsgálásáig felfüggesztett eljárás megelőzi a későbbi felügyeleti fogyasztóvédelmi bírságokat."
     }
   ],

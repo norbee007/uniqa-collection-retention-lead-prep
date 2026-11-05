@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-11-05
+
+### Added & Verified
+- **Teljes Közlöny-audit (2026.04.12 – 2026.11.05: MK 36. – 165. számok)**:
+  - Átfogó forrásvizsgálat: az RSS feed 100 elemes korlátjának feltárása és a 2026. április 12. és 2026. augusztus 14. közötti lapszámok (MK 36. – 109. számok) szisztematikus ellenőrzése.
+  - **Új azonosított jogszabály**: **2026. évi XIV. törvény** (MK 2026/44. szám, kihirdetve: 2026.05.09., hatályos: 2026.05.14.).
+    - Beiktatta a Vht. 92. § új *d)* pontját (sportszervezetek működési célú állami támogatásának végleges mentesítése).
+    - Beiktatta a Vht. új **92/A. §**-át (az Otthontámogatás teljes körű végrehajtási mentessége, levonási tilalma és ex lege visszajárása).
+  - A Markdown elemzés és a formázott `.docx` jelentés frissítve az új jogszabállyal és hatásvizsgálattal.
+
 ## [1.1.2] - 2026-11-05
 
 ### Fixed

@@ -1,6 +1,6 @@
 # Uniqa Collection & Retention Lead – Jogszabályfigyelő és Döntéstámogató Rendszer (2026)
 
-[![Version](https://img.shields.io/badge/version-1.1.2-blue.svg)](file:///CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](file:///CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20PowerShell-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/license-Internal%20%2F%20Proprietary-red.svg)]()
 
