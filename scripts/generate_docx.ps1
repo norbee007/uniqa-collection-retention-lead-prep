@@ -91,10 +91,16 @@ try {
     $selection.TypeText($data.sec1_lead)
     $selection.TypeParagraph()
 
+    # Native Word Bullet formatting (no literal non-ascii bullet symbol)
     foreach ($item in $data.sec1_bullets) {
-        $selection.TypeText(" • " + $item)
+        $selection.ParagraphFormat.LeftIndent = 18
+        $selection.ParagraphFormat.FirstLineIndent = -18
+        $selection.TypeText("- " + $item)
         $selection.TypeParagraph()
     }
+    # Reset indent
+    $selection.ParagraphFormat.LeftIndent = 0
+    $selection.ParagraphFormat.FirstLineIndent = 0
 
     # Section 2
     $selection.Font.Size = 14
@@ -224,7 +230,7 @@ try {
 
     # Save
     $doc.SaveAs([ref]$outputPath, [ref]16)
-    Write-Output "DOCX_WITH_ACCENTS_CREATED_SUCCESSFULLY: $outputPath"
+    Write-Output "DOCX_CLEANED_SUCCESSFULLY: $outputPath"
 }
 catch {
     Write-Error "DOCX_GENERATION_FAILED: $_"

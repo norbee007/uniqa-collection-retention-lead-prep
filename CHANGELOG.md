@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] - 2026-11-05
+
+### Fixed
+- **Bullet karakter kódolási hiba (`â€˘` mojibake) megszüntetése**:
+  - A PowerShell generátorban korábban hardkódolt UTF-8 bullet karakter (`•`, U+2022) a Word COM API hívásakor ANSI kontextusban `â€˘` karakterláncként jelent meg.
+  - A felsorolási elemek átalakításra kerültek tiszta, natív Word bekezdés-behúzásra (`LeftIndent = 18`, `FirstLineIndent = -18`) és szabványos kötőjeles jelölésre.
+  - A `docs/Uniqa_Collection_Retention_Lead_Joganyag_2026.docx` belső XML vizsgálata (0 darab `0x00E2` karakter) igazolta az anomália teljes megszűnését.
+
 ## [1.1.1] - 2026-11-05
 
 ### Fixed
