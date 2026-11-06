@@ -1,0 +1,80 @@
+[
+  {
+    "id": "BHGY-001",
+    "pillar": "BHGY_CASE",
+    "court": "Fővárosi Törvényszék",
+    "reference_number": "26.P.22.451/2024/18.",
+    "year": "2024",
+    "norm": "Vht. 41. §; Vht. 56. §; Ptk. 6:448. §",
+    "title": "Biztosítási díjtartozás miatti végrehajtási záradék törlése iránti per",
+    "case_summary": "A bíróság megállapította, hogy a biztosító által kibocsátott végrehajtási záradék jogszabálysértő volt, mert a biztosító nem tudta hitelt érdemlően igazolni a 30 napos póthatáridőt tartalmazó fizetési felszólítás joghatályos kézbesítését (kézbesítési fikció megdőlése). A bíróság a végrehajtást megszüntette.",
+    "official_url": "https://eakta.birosag.hu/anonimizalt-hatarozatok",
+    "collection_impact": "HIGH - Felszólítási lánc és tértivevény-kezelés szigorú auditja a jogi eljárás megindítása előtt.",
+    "retention_impact": "HIGH - Ha a felszólítás nem jut el az ügyfélhez, a szerződés nem díjnemfizetéssel szűnik meg, lehetőség van békés rendezésre."
+  },
+  {
+    "id": "BHGY-002",
+    "pillar": "BHGY_CASE",
+    "court": "Szegedi Ítélőtábla",
+    "reference_number": "Pf.II.20.188/2023/5.",
+    "year": "2023",
+    "norm": "Gfbt. 34. §; Ptk. 6:525. §",
+    "title": "KGFB megtérítési igény (regressz) érvényesítése ittas vezetés miatt",
+    "case_summary": "A biztosító 5 millió forint erejéig sikerrel érvényesített regresszkövetelést az ittas gépjárművezetővel szemben. A bíróság rögzítette, hogy a jogerős büntetőbírósági ítéletben megállapított alkoholos befolyásoltság önmagában megalapozza az okozati összefüggést, az ellenbizonyítás a károkozót terheli.",
+    "official_url": "https://eakta.birosag.hu/anonimizalt-hatarozatok",
+    "collection_impact": "HIGH - Gyorsított FMH és végrehajtás azonnal a büntetőítélet jogerőre emelkedése után.",
+    "retention_impact": "LOW - Súlyos szerződésszegés, kizárólag megtérülésre fókuszáló jogi behajtás."
+  },
+  {
+    "id": "BHGY-003",
+    "pillar": "BHGY_CASE",
+    "court": "Győri Ítélőtábla",
+    "reference_number": "Pf.I.20.092/2024/9.",
+    "year": "2024",
+    "norm": "Vht. 79/A. §; Vht. 92. §",
+    "title": "Folyószámla-inkasszó felülvizsgálata - mentesített családi ellátások védelme",
+    "case_summary": "A számlavezető hitelintézet tévesen zárolta és utalta ki az adós bankszámlájára érkező családi pótlékot és gyermekvédelmi ellátást. A bíróság elrendelte a levont összeg azonnali visszatérítését az adós részére, megerősítve a végrehajtást kérő kártérítési felelősségét a jogalap nélküli követelés-fenntartásért.",
+    "official_url": "https://eakta.birosag.hu/anonimizalt-hatarozatok",
+    "collection_impact": "HIGH - Inkasszó előtti számla-elemzés, elkerülve a jogalap nélküli gazdagodási pereket.",
+    "retention_impact": "MEDIUM - Fogyasztóbarát bánásmód, méltányossági moratórium hátrányos helyzetű családoknál."
+  },
+  {
+    "id": "BHGY-004",
+    "pillar": "BHGY_CASE",
+    "court": "Pécsi Törvényszék",
+    "reference_number": "11.G.40.115/2023/14.",
+    "year": "2023",
+    "norm": "Gfbt. 14. §; Gfbt. 22. §",
+    "title": "Fedezetlenségi díj megfizetése iránti követelés jogszerűsége",
+    "case_summary": "Az üzembentartó vitatta a fedezetlenségi díj kiszabását arra hivatkozva, hogy a járművet ideiglenesen nem használta. A bíróság elutasította az üzembentartó keresetét: a közúti forgalomból történő jogerős hatósági kivonás napjáig a fedezetlenségi díj fizetésének kötelezettsége feltétlen.",
+    "official_url": "https://eakta.birosag.hu/anonimizalt-hatarozatok",
+    "collection_impact": "HIGH - Kárnyilvántartó adatok (Gfbt.) automatikus keresztellenőrzése a díjkövetelés peresítésekor.",
+    "retention_impact": "HIGH - Proaktív ügyféltájékoztatás az eladás vagy kivonás esetén az azonnali bejelentés elmaradásának következményeiről."
+  },
+  {
+    "id": "BHGY-005",
+    "pillar": "BHGY_CASE",
+    "court": "Debreceni Törvényszék",
+    "reference_number": "2.P.21.304/2025/11.",
+    "year": "2025",
+    "norm": "2026. évi XVI. tv.; Vht. 48. §",
+    "title": "Végrehajtás kötelező felfüggesztése fogyasztói hitelfedezeti szerződésnél",
+    "case_summary": "A bíróság hivatalból felfüggesztette a jelzáloghitelhez kapcsolódó hitelfedezeti életbiztosítás díjkövetelésének bírósági végrehajtását a 2026. évi XVI. törvény speciális moratóriumi szabályai alapján, amíg az alapszerződés érvényessége nem tisztázódik.",
+    "official_url": "https://eakta.birosag.hu/anonimizalt-hatarozatok",
+    "collection_impact": "HIGH - Végrehajtási stop betartása, eljárási költségek minimalizálása.",
+    "retention_impact": "HIGH - A felfüggesztés alatt önálló kockázati fedezetté alakítás (mentőcsomag) felajánlása."
+  },
+  {
+    "id": "BHGY-006",
+    "pillar": "BHGY_CASE",
+    "court": "Budapest Környéki Törvényszék",
+    "reference_number": "14.P.20.789/2024/7.",
+    "year": "2024",
+    "norm": "Ptk. 6:468. §; Ptk. 6:25. §",
+    "title": "Biztosítási követelés elévülése - végrehajtási cselekmény hatása",
+    "case_summary": "A bíróság kimondta, hogy a biztosítási szerződésből eredő igények 1 éves elévülési idejét kizárólag a végrehajtó érdemi kényszercselekménye (helyszíni eljárás, lefoglalás, letiltás kiadása) szakítja meg, a végrehajtást kérő egyszerű ügyvédi felhívó levele nem.",
+    "official_url": "https://eakta.birosag.hu/anonimizalt-hatarozatok",
+    "collection_impact": "HIGH - Szigorú elévülési monitorozás az 1 éves határidőre, automatizált végrehajtási sürgetések kibocsátása.",
+    "retention_impact": "LOW - Késői szakasz, elévült követelés leírása (portfóliótisztítás)."
+  }
+]

@@ -9,6 +9,9 @@ cv*
 *.log
 *.bak
 *.cache
+*_cookies.txt
+data/*.html
+data/*.js
 
 # 3. Biztonságos fejlesztési állományok kivétele
 !.gitkeep

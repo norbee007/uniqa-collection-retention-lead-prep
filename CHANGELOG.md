@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-11-06
+
+### Added & Architecture Expansion
+- **4 Új Jogforrás-Pillér Integrációja (Összesen 271 feldolgozott tétel)**:
+  - **Pillér 1 – MNB Releváns Ajánlások (2020-tól napjainkig)**: 143 elem feldolgozva (37 kiemelten releváns), köztük az etikus adóskezelés (13/2022. MNB ajánlás), a panaszkezelési határidők és minőségbiztosítás (16/2026. MNB rendelet és 7/2021. ajánlás), valamint a termékfelügyelet és irányítás (14/2025. POG ajánlás).
+  - **Pillér 2 – BHGY Anonimizált Döntések (2025-ig visszamenőleg)**: Bírósági határozatok gyűjteménye a Vht. 41/56. § végrehajtás-megszüntetési perekről, a mentesített juttatások inkasszójáról és a fedezetlenségi díj jogérvényesítéséről.
+  - **Pillér 3 – Kúria Döntések és Jogegységi Határozatok (2025-ig visszamenőleg)**: 42 Kúriai határozat és JPE a kötelmi elévülésről (Ptk. 6:468. §), a türelmi időről és póthatáridős felmondásokról (Ptk. 6:448. §), az egyoldalú szerződési feltételek érvénytelenségéről és a biztosítói regresszről (Gfbt. 34. §).
+  - **Pillér 4 – SZTFH Rendeletek és Határozatok (2025-től napjainkig)**: 80 SZTFH norma (20 végrehajtási relevanciájú) a bírósági végrehajtói hálózat felügyeletéről (11/2025. rendelet), az Elektronikus Árverési Rendszerről (10/2026. és 13/2021. EÁR) és végrehajtói panaszügyekről.
+- **Automatizált Web-Scraping Pipeline**:
+  - `scripts/run_all_scrapers.ps1`: Fő orchestrator és aggregáló modul.
+  - `scripts/scrape_mnb.ps1`, `scripts/scrape_sztfh.ps1`, `scripts/scrape_kuria.ps1`, `scripts/scrape_bhgy.ps1`.
+  - Normalizált JSON adatbázisok a `data/` könyvtárban (`aggregated_legal_data.json` statisztikákkal).
+- **Új Dokumentáció és Vezetői Eszközök**:
+  - `docs/SPECIFIKACIO_ES_ADATFORRASOK_V2.md`: Részletes rendszerspecifikáció, szakterületi szűrőszótár, JSON adatséma (v2.0) és Zero Data Leak v2 protokoll.
+  - `docs/MESTER_PROMPT_V2_MULTI_SOURCE.md`: Teljes multidiszciplináris 5P Mester Prompt sablonrendszer Uniqa Collection & Retention Lead szintre optimalizálva.
+  - `docs/INTEGRALT_JOGFORRAS_PLAYBOOK_2026.md`: Átfogó stratégiai playbook, Soft & Hard Collection folyamatmodell, KPI mátrix és 5 nyerő interjú modell-válasz.
+- **Újragenerált Formázott Word (.docx) Dokumentum**:
+  - `docs/Uniqa_Collection_Retention_Lead_Joganyag_2026.docx`: 5 strukturált fejezet, 6 formázott táblázat (KPI mátrix, MK 2026, MNB, Kúria, BHGY, SZTFH), Uniqa arculati színpaletta, 100%-os UTF-8 magyar karakterkészlet.
+  - `scripts/generate_docx.ps1`: Automatizált Word COM riportgenerátor frissítve.
+- **Launcher Frissítés**:
+  - `run.bat`: Kibővítve v2.0.0-ra 1-kattintásos scraper futtatással és dokumentum-megnyitással.
+
 ## [1.2.0] - 2026-11-05
 
 ### Added & Verified

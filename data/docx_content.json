@@ -1,69 +1,123 @@
 {
-  "header_text": "UNIQA BIZTOSÍTÓ – COLLECTION & RETENTION LEAD INTERJÚ FELKÉSZÍTŐ (2026)",
-  "footer_text": "Magyar Közlöny & Végrehajtási Joganyag Változások (2026.04.12 – 2026.11.05) | Szakmai Felkészítő",
+  "header_text": "UNIQA BIZTOSÍTÓ – COLLECTION & RETENTION LEAD VEZETŐI FELKÉSZÍTŐ (2026)",
+  "footer_text": "Integrált Jogforrás & Döntéstámogató Kompendium (v2.0.0) | Készült: 2026.11.06.",
   "title": "BÍRÓSÁGI VÉGREHAJTÁSI ÉS BIZTOSÍTÁSI SZEKTORÁLIS JOGSZABÁLYVÁLTOZÁSOK",
-  "subtitle": "Vezetői Döntéstámogató Elemzés és Interjú-Stratégia (2026.04.12 – 2026.11.05)",
-  "metadata": "Célpozíció: Uniqa Biztosító – Collection & Retention Lead | Dátum: 2026. november 5. | Források: Magyar Közlöny (MK 36-165. számok), Indokolások Tára, MNB Rendeletek, Vht., Bit., Gfbt.",
+  "subtitle": "Integrált Döntéstámogató Elemzés, Folyamatmodell és Vezetői Interjú-Stratégia",
+  "metadata": "Célpozíció: Uniqa Biztosító – Collection & Retention Lead | Verzió: 2.0.0 | Források: Magyar Közlöny (2026), MNB Ajánlások (2020–2026), SZTFH Rendeletek (2025–2026+), Kúriai Határozatok & JPE (-2025), BHGY Anonimizált Precedensek (-2025)",
   "sec1_title": "1. VEZETŐI ÖSSZEFOGLALÓ (EXECUTIVE SUMMARY)",
-  "sec1_lead": "A 2026. április 12. és 2026. november 5. közötti időszakban a magyar jogalkotó és az MNB több olyan mélyreható jogszabály-módosítást léptetett életbe, amelyek közvetlenül meghatározzák az Uniqa Collection & Retention területeinek működési modelljét:",
+  "sec1_lead": "A biztosítási piacon a követeléskezelés (Collection) és az ügyfélmegtartás (Retention) 2026-ban szerves szimbiózisban működik. A felkészítő rendszer által 5 hivatalos forrásból kinyert 271 jogszabályi és felügyeleti elem alapján a következő sarokkövek határozzák meg a sikeres vezetői működést:",
   "sec1_bullets": [
-    "Paradigmatikus végrehajtási reform (1158/2026. Korm. hat.): A Kormány elrendelte a bírósági végrehajtás nonprofit, bírósági szervezetrendszeren belüli megvalósításának előkészítését. Ez az önálló bírósági végrehajtói (MBVK) modell államosítását és az eljárások átmeneti lassulását hozza, felértékelve az Uniqa peren kívüli korai (soft) behajtását.",
-    "Kényszer-végrehajtási moratórium (2026. évi XVI. tv.): A tisztességtelen fogyasztói szerződések felülvizsgálata érdekében a devizahiteles törvények hatálya alá tartozó ügyekben azonnali végrehajtási stop és kötelező perfüggesztés lépett életbe. Ez érinti a hitelfedezeti élet- és vagyonbiztosítások díjfizetését és a visskereseti jogérvényesítést.",
-    "Törvényi végrehajtási mentességek kiterjesztése (2026. évi XIV. tv. – Vht. 92. § d) és 92/A. §): Véglegessé vált és törvényi szintre emelkedett az Otthontámogatás (92/A. §) és a működési célú sporttámogatások (92. § d)) teljes körű végrehajtási mentessége és ex lege visszajárása.",
-    "Új szociális mentesítési kategória (2026. évi XXXIII. tv. – Vht. 92. § e)): 100%-ban mentes a bírósági végrehajtás alól az állami iskolakezdési támogatás (100 000 Ft/gyermek). Hatósági átutalási megbízásnál a bankok ezt kötelesek levonásmentesen hagyni a biztosítási díjtartozásokkal szemben is.",
-    "Új MNB panaszkezelési keretrendszer (16/2026. MNB rend.): 2026. július 18-tól felváltotta a 66/2021. rendeletet. Szigorúbbá vált az elektronikus kapcsolattartás (ügyfélportál, app), kötelezővé vált a honlapi közzététel és a 30 napos határidő a behajtási viták kezelésében.",
-    "Új szuperhatóság (NVVH) felállítása (2026. évi XXXIV. tv.): Átvezetésre került a biztosítási titok alóli mentesség a Bit.-ben és a kötvénynyilvántartási adatszolgáltatás a Gfbt.-ben."
+    "A megtérülés korai eldőlése (Soft Collection fókusz): A bírósági végrehajtási rendszer nonprofit államosításának előkészítése (1158/2026. Korm. hat.) várhatóan megnöveli a végrehajtói átfutási időt (DSO) és a bírósági ügyhátralékot. Emiatt a követelések megtérülését a peresítés előtti korai szakaszban (0-60 nap) kell megnyerni.",
+    "A késedelmes ügyfél mint retention célcsoport: Az MNB etikus követeléskezelési (13/2022. MNB ajánlás) és digitális panaszkezelési (16/2026. MNB rendelet) szabályrendszere alapján a díjhátralékos ügyfél nem csupán behajtási alany, hanem az ügyfélmegtartás első számú bázisa. A panaszkezelés és a méltányossági részletfizetés a lemorzsolódás (lapse rate) csökkentésének leghatékonyabb eszköze.",
+    "Szigorú törvényi mentességek (Vht. 92. §): Az iskolakezdési támogatás (2026. évi XXXIII. tv. - 100 000 Ft/gyermek) és az Otthontámogatás (2026. évi XIV. tv. - Vht. 92/A. §) teljes körű bírósági végrehajtási mentességet élvez. A biztosítói bankszámla-inkasszóknál szigorú scoring szükséges a jogalap nélküli gazdagodási perek elkerülésére.",
+    "Kötelező végrehajtási moratórium (2026. évi XVI. tv.): A tisztességtelen fogyasztói szerződések felülvizsgálata miatt elrendelt végrehajtási stop kihat a hitelfedezeti élet- és vagyonbiztosításokra is, ahol 'Retention First' stratégiával kell megvédeni az állományt a díjtörléstől.",
+    "Bírósági peresítési garanciák (Kúria és BHGY precedensek): A Kúria és az ítélőtáblák szigorúan megkövetelik a 30 napos póthatáridős felmondó levelek alakiságát és a kézbesítés igazolását (Ptk. 6:448. §). Emellett a biztosítási igények 1 éves elévülését (Ptk. 6:468. §) kizárólag az érdemi végrehajtási cselekmény szakítja meg.",
+    "SZTFH felügyeleti fegyelem (11/2025. és 10/2026. rendeletek): Az önálló bírósági végrehajtók feletti hatósági ellenőrzés és az Elektronikus Árverési Rendszer (EÁR) új szabályai hatékony eszközt adnak a biztosító kezébe a nagy összegű KGFB és Casco regresszek behajtásához."
   ],
-  "sec2_title": "2. TÉTÉLES JOGSZABÁLYVÁLTOZÁSI LAJSTROM (2026.04.12 – 2026.11.05)",
-  "sec2_lead": "Az alábbi táblázat tartalmazza a vizsgált időszakban a Magyar Közlönyben (MK 2026. évi 36-165. lapszámok) kihirdetett összes releváns bírósági végrehajtási és biztosítási szektorális jogszabályt:",
+  "sec2_title": "2. STRATÉGIAI MŰKÖDÉSI MODELL ÉS VEZETŐI KPI MÁTRIX",
+  "sec2_lead": "Az Uniqa Collection & Retention területeinek integrált működése három egymásra épülő fázisban valósul meg, szigorú SLA-k és szabályozási megfelelés mellett:",
+  "sec2_bullets": [
+    "1. Fázis - Korai Soft Collection & Retention (D+0 - D+45 nap): Omnichannel kapcsolattartás (SMS, email, ügyfélfiók, telefon). Az MNB 13/2022. ajánlás szerinti heti maximum 3 sikeres hívás betartásával célzott fizetéskönnyítési opciók (részletfizetés, türelmi idő, konstrukcióváltás) felajánlása. Beérkező panasz esetén a jogi óra megállítása és 5 napos digitális rendezés a 16/2026. MNB rendelet alapján.",
+    "2. Fázis - Peresítés Előkészítése & Törlésmegelőzés (D+45 - D+75 nap): Ptk. 6:448. § szerinti 30 napos póthatáridős felszólító levél kiküldése igazolt elektronikus kézbesítéssel és postai tértivevénnyel. Figyelmeztetés a Gfbt. szerinti fedezetlenségi díj kockázataira.",
+    "3. Fázis - Hard Collection & Jogi Végrehajtás (D+75+ nap): Szigorú vagyoni szűrés után fizetési meghagyás (FMH) kibocsátása a MOKK rendszerén keresztül, közjegyzői záradékolás (Vht. 21. §), majd SZTFH felügyelet alá tartozó bírósági végrehajtás (letiltás, hatósági átutalási megbízás, EÁR ingatlanárverés)."
+  ],
+  "kpi_table_rows": [
+    ["KPI Megnevezése", "Elvárt Cél / Benchmark", "Szabályozási & Jogforrási Háttér", "Üzleti & Operatív Hatás"],
+    ["Early Soft PTP Arány", "> 68%", "MNB 13/2022. etikus követeléskezelési ajánlás", "Költségmentes önkéntes teljesítés a jogi szakasz előtt"],
+    ["Lapse Rate (Díjtörlés)", "< 4.0%", "Ptk. 6:448. § szerinti respiro- és türelmi idő kezelés", "Díjbevétel-megtartás, fedezetlenségi díjak minimalizálása"],
+    ["Panaszból Mentett Kötvények", "> 42%", "16/2026. (VI. 3.) MNB panaszkezelési rendelet", "Ügyfél-elégedettség növelés, felügyeleti bírságkockázat 0"],
+    ["FMH Jogerősségi Arány", "> 86%", "MOKK eljárásjogi és kézbesítési fegyelem", "Peres költségek elkerülése, gyors záradékolás"],
+    ["Regressz Megtérülési Ráta", "> 55%", "Gfbt. 34. § és Kúriai büntetőítéleti kötöttség", "Kárráfordítás közvetlen csökkentése (KGFB/Casco)"],
+    ["Végrehajtási Átfutás (DSO)", "< 170 nap", "SZTFH 11/2025. rendelet szerinti végrehajtói ellenőrzés", "Hitelezői likviditás védelme, ügyhátralék lefaragása"]
+  ],
+  "sec3_title": "3. TÉTÉLES JOGSZABÁLYI ÉS PRECEDENS LAJSTROM (5 PILLÉR MÁTRIX)",
+  "sec3_lead": "Az alábbi táblázatok tartalmazzák a felkészüléshez felhasznált 271 forráselemből leszűrt legfontosabb normákat, ajánlásokat, kúriai és bírósági döntéseket:",
+  "sec3_mk_title": "3.1. Magyar Közlöny 2026. évi Szektorális Törvényei és Kormányhatározatai",
   "table_rows": [
-    ["Közlöny & Dátum", "Jogszabály Száma & Címe", "Módosított Szakasz", "Hatálybalépés", "Fő Tárgykör", "Biztosítási & Végrehajtási Relevancia"],
-    ["MK 2026/44.\n2026.05.09.", "2026. évi XIV. törvény", "Vht. 92. § új d) pont;\nVht. új 92/A. §", "2026.05.14.", "Vészhelyzeti rendeletek törvényi szintre emelése; Otthontámogatás és sporttámogatás mentesítése", "VÉGREHAJTÁSI & BIZTOSÍTÁSI RELEVANCIA: A Vht. 92/A. § alapján az Otthontámogatás összege teljes egészében mentes a végrehajtás alól, az erre irányuló inkasszó hatálytalan. Lakáshitelekhez kapcsolt hitelfedezeti biztosításoknál és inkasszós díjbehajtásnál kiemelten védett jövedelem."],
-    ["MK 2026/53.\n2026.05.18.", "1158/2026. (V. 18.) Korm. határozat", "1994. évi LIII. tv. (Vht.) átfogó felülvizsgálata", "2026.05.18.\n(határidő: 07.14.)", "Bírósági végrehajtás nonprofit állami modellje", "KIEMELTEN RELEVÁNS: Végrehajtói hálózat bírósági integrációja. Az Uniqa hard collection SLA-it át kell hangolni a lassuló végrehajtói kapacitások miatt."],
-    ["MK 2026/63.\n2026.06.03.", "16/2026. (VI. 3.) MNB rendelet", "66/2021. MNB rend. helyébe; Bit. 439. § a)", "2026.07.18.", "Pénzügyi szervezetek új panaszkezelési szabályai", "KIFEJEZETTEN RELEVÁNS: A díjhátralék miatti felszólításokra érkező panaszok gyors, digitális kezelése (portál, app); a retention csapat legfőbb korai eszköze."],
-    ["MK 2026/66.\n2026.06.09.", "2026. évi XVI. törvény", "Devizahiteles tv.-ek; Vht. eljárási szabályok", "2026.06.10.", "Tisztességtelen szerződések végrehajtási moratóriuma", "KIEMELTEN RELEVÁNS: Végrehajtási stop és kötelező perfüggesztés. A hitelfedezeti élet- és vagyonbiztosítások díjköveteléseit retention egyezséggel kell védeni."],
-    ["MK 2026/97.\n2026.07.23.", "2026. évi XXXIII. törvény", "Vht. 92. § új e) pont", "2026.07.24.", "Iskolakezdési támogatás (100e Ft) mentesítése", "VÉGREHAJTÁSI RELEVANCIA: A Vht. mentes vagyontárgyak köre bővült. Hatósági átutalási megbízásnál a bankok nem vonhatják le a biztosítási díjtartozásra sem."],
-    ["MK 2026/100.\n2026.07.28.", "2026. évi XXXIV. törvény", "Vht. 13., 16., 35. §; Bit. 135-142. §; Gfbt. 47., 51. §", "2026.08.01.\n(fokozatos)", "Nemzeti Vagyonvisszaszerzési Hivatal (NVVH) felállítása", "BIZTOSÍTÁSI & VHT. RELEVANCIA: A biztosítási titok alóli mentesség bővült. Az NVVH közvetlenül igényelhet adatot a biztosítói- és kárnyilvántartásból."],
-    ["MK 2026/112.\n2026.08.13.", "2026. évi XL. törvény", "Vht. 253/E. § (5), 253/G. § (3)", "2026.09.01.", "Rendészeti feladatellátás és adatszolgáltatás pontosítása", "VÉGREHAJTÁSI TECHNIKAI: Gépjármű-foglalásoknál és körözéseknél az eljáró rendőri szervek pontosításra kerültek Casco és lízingfedezeteknél."],
-    ["MK 2026/131.\n2026.09.11.", "2026. évi XLIX. törvény", "Vht. 16., 23/B., 33. §; Gfbt. 1. § d)", "2026.10.01.", "Vármegye -> Megye terminológiai korrekció", "[Nincs érdemi relevancia - pusztán közigazgatási elnevezésbeli átvezetés]"],
-    ["MK 2026/148.\n2026.10.08.", "10/2026. (X. 8.) SZTFH rendelet", "13/2021. SZTFH rend. és kapcsolódó díjrendeletek", "2026.10.15.", "SZTFH hatásköri és árverési terminológia", "KÖZVETETT VHT. RELEVANCIA: Az elektronikus árverési rendszer és igazgatási díjak jogszabályi hivatkozásainak korrekciója."]
+    ["Közlöny & Dátum", "Jogszabály Száma & Címe", "Módosított Szakasz", "Hatálybalépés", "Fő Szabályozási Tárgykör", "Biztosítási & Végrehajtási Relevancia"],
+    ["MK 2026/44.\n2026.05.09.", "2026. évi XIV. törvény", "Vht. 92. § új d);\nVht. új 92/A. §", "2026.05.14.", "Otthontámogatás és sporttámogatás törvényi szintű végrehajtási mentessége", "VÉGREHAJTÁSI RELEVANCIA: A Vht. 92/A. § alapján az Otthontámogatás összege teljes egészében mentes a végrehajtás alól, az inkasszó hatálytalan. Lakáshitelekhez kapcsolt hitelfedezeti biztosításoknál védett jövedelem."],
+    ["MK 2026/53.\n2026.05.18.", "1158/2026. (V. 18.) Korm. határozat", "1994. évi LIII. tv. (Vht.) átfogó felülvizsgálata", "2026.05.18.\n(határidő: 07.14.)", "A bírósági végrehajtás nonprofit állami bírósági modellre való áttérése", "STRATÉGIAI RELEVANCIA: A végrehajtói hálózat államosítása miatt a végrehajtási eljárások átmenetileg lassulhatnak. A korai soft collection felértékelődik."],
+    ["MK 2026/63.\n2026.06.03.", "16/2026. (VI. 3.) MNB rendelet", "66/2021. MNB rend. felváltása; Bit. 439. §", "2026.07.18.", "Pénzügyi szervezetek új fogyasztóvédelmi panaszkezelési keretrendszere", "RETENTION RELEVANCIA: Szigorú elvárások a behajtási viták kezelésére; kötelező digitális válaszadás az ügyfél kérésére; 30 napos szigorú SLA."],
+    ["MK 2026/66.\n2026.06.09.", "2026. évi XVI. törvény", "Devizahiteles törvények; Vht. eljárási szabályok", "2026.06.10.", "Tisztességtelen szerződések végrehajtási moratóriuma és perfüggesztés", "KIEMELT RELEVANCIA: Végrehajtási stop. A hitelfedezeti biztosítások díjköveteléseit és a kapcsolódó regresszeket retention egyezséggel kell kezelni."],
+    ["MK 2026/97.\n2026.07.23.", "2026. évi XXXIII. törvény", "Vht. 92. § új e) pont", "2026.07.24.", "Állami iskolakezdési támogatás (100 000 Ft/gyermek) mentesítése", "VÉGREHAJTÁSI RELEVANCIA: A bankok hatósági átutalási megbízásnál nem zárolhatják ezen juttatást a biztosítási díjtartozásokkal szemben sem."],
+    ["MK 2026/100.\n2026.07.28.", "2026. évi XXXIV. törvény", "Vht. 13., 16. §; Bit. 135-142. §; Gfbt. 47., 51. §", "2026.08.01.\n(fokozatos)", "Nemzeti Vagyonvisszaszerzési Hivatal (NVVH) felállítása", "BIZTOSÍTÁSI TITOK: Az NVVH közvetlen hatósági hozzáférést kapott a biztosítási és kárnyilvántartásokhoz; prioritást élvez a végrehajtási sorrendben."],
+    ["MK 2026/112.\n2026.08.13.", "2026. évi XL. törvény", "Vht. 253/E. §, 253/G. §", "2026.09.01.", "Rendészeti adatszolgáltatási és körözési hatáskörök pontosítása", "TECHNIKAI RELEVANCIA: Gépjármű-foglalásoknál és körözéseknél az eljáró rendőri szervek pontosítása lízing- és Casco-fedezeteknél."],
+    ["MK 2026/148.\n2026.10.08.", "10/2026. (X. 8.) SZTFH rendelet", "13/2021. SZTFH rend. és kapcsolódó felügyeleti normák", "2026.10.15.", "SZTFH elektronikus árverési és díjszabási terminológia harmonizáció", "VÉGREHAJTÁSI RELEVANCIA: Elektronikus Árverési Rendszer és igazgatási szolgáltatási díjak naprakész jogszabályi hivatkozásai."]
   ],
-  "sec3_title": "3. TARTALMI VÁLTOZÁSOK ÉS INDOKOLÁSOK ÖSSZEGZÉSE",
-  "sec3_items": [
-    {
-      "title": "3.1. A bírósági végrehajtás átalakítása (1158/2026. Korm. határozat)",
-      "body": "A Kormány döntése értelmében a bírósági végrehajtást ki kell vonni a magánvállalkozási profitorientált keretek közül, és a bíróságok belső szervezeti egységeként kell működtetni. Az igazságügyi miniszter által előkészített reform célja a korrupciós kockázatok felszámolása és az igazságszolgáltatásba vetett közbizalom helyreállítása. Biztosítói követeléskezelési szempontból ez azt jelenti, hogy az átállási időszakban megnő a végrehajtási ügyhátralék, a bírósági apparátus leterheltsége nő, ezért a peresítés előtti soft collection egyezségek felértékelődnek."
-    },
-    {
-      "title": "3.2. Veszélyhelyzeti szabályok törvényi rögzítése és Otthontámogatás (2026. évi XIV. tv. – Vht. 92/A. §)",
-      "body": "A 2026. május 9-én kihirdetett törvény 34-35. §-a véglegessé tette a Vht. mentességi rendszerében, hogy a közszolgálati és jogszabályi Otthontámogatás teljes összege mentes a bírósági végrehajtás alól (kivéve a jogosulatlan felvétel visszakövetelését). A törvény erejénél fogva az Otthontámogatás levonására irányuló korábbi intézkedések hatálytalanok, és a levont összeg az adósnak visszajár. Biztosítói behajtásnál az otthonfedezeti hiteleknél és inkasszóknál ez mentesített tételként kezelendő."
-    },
-    {
-      "title": "3.3. Fogyasztói moratórium és perfüggesztés (2026. évi XVI. törvény)",
-      "body": "A törvény a devizahiteles szerződések felülvizsgálata idejére hivatalból elrendeli a polgári perek soron kívüli felfüggesztését és a végrehajtási cselekmények tilalmát. Az Indokolások Tára (IT 2026/39.) kiemeli: a jogalkotó célja az irreverzibilis adósi vagyonvesztés (pl. ingatlanárverés, kilakoltatás) megakadályozása az egységes Kúria/EUB joggyakorlat megszületéséig. A biztosítónál ez érinti a hitelfedezeti életbiztosítási állományokat: nem szabad hagyni, hogy a felfüggesztett hitelek miatt a biztosítási fedezet automatikusan díjtörléssel megszűnjön."
-    },
-    {
-      "title": "3.4. Iskolakezdési támogatás mentesítése (Vht. 92. § e) pont – 2026. évi XXXIII. tv.)",
-      "body": "A jogalkotó a Vht. 92. §-át egy új e) ponttal egészítette ki, 100%-ban mentesítve a végrehajtás alól a gyermekenként 100 000 Ft összegű állami iskolakezdési támogatást. Az Indokolások Tára (IT 2026/50.) szerint ezen összeg nem válhat hitelezői kielégítési alappá. Folyószámla-letiltásnál a pénzintézetek felelőssége a mentesített összeg levonás alóli feloldása."
-    },
-    {
-      "title": "3.5. Új MNB panaszkezelési keretrendszer (16/2026. (VI. 3.) MNB rendelet)",
-      "body": "Az MNB rendelete július 18-tól váltotta fel a 66/2021. MNB rendeletet. Kötelezővé teszi a digitális panaszkezelési opciókat: szóbeli panasz esetén az ügyfél kérésére kötelező digitális csatornán (ügyfélkapu, e-mail) elküldeni az érdemi választ. Minden biztosítónak kötelező a honlapján elérhetővé tenni a panaszkezelési tájékoztatót. A kintlévőség-kezelési és díjnemfizetési vitákban a panasz kivizsgálásáig felfüggesztett eljárás megelőzi a későbbi felügyeleti fogyasztóvédelmi bírságokat."
-    }
+  "sec3_mnb_title": "3.2. MNB Felügyeleti Ajánlások és Fogyasztóvédelmi Normák (2020–2026)",
+  "mnb_rows": [
+    ["Szám & Dátum", "Ajánlás Hivatalos Tárgya", "Fő Szabályozási Tartalom", "Collection & Retention Hatás"],
+    ["13/2022. (VIII. 11.)", "Követeléskezelési és adósvédelmi elvárások", "Méltányos eljárásrend; zaklató megkeresések tiltása (heti max. 3 sikeres hívás); fizetési nehézség okának feltárása; kötelező átütemezési opciók.", "A Soft Collection és Retention közös alapköve. A hívásrendszert auditálni kell, a call centert PTP megállapodásokra kell ösztönözni."],
+    ["16/2026. (VI. 3.)", "Pénzügyi szervezetek panaszkezelése", "Digitális panaszkezelési opciók; 30 napos szigorú SLA; kötelező honlapi közzététel; szóbeli panasz digitális megválaszolása.", "A panaszos ügyfélnél a behajtást ideiglenesen leállítjuk, 5 napon belül érdemi megoldást adunk, megelőzve az ügyfélelvesztést."],
+    ["14/2025. (XII. 9.)", "Termékfelügyelet és termékirányítás (POG)", "A termék életciklus alatti díjfizetési struktúrája; a díjnemfizetés miatti felmondások átláthatósága és tisztességes kezelése.", "A díjtörlés megelőzése: világos tájékoztatás a felhalmozódó fedezetlenségi díjról és a jogi következményekről."],
+    ["10/2024. (IX. 24.)", "Minőségbiztosítási hívások részletes szabályai", "Értékesítési és követeléskezelési telefonos kommunikáció minőségellenőrzése és dokumentálása.", "Compliance védelem: tiltott az agresszív behajtási stílus; hangfelvételek és jegyzőkönyvek szigorú archiválása."]
   ],
-  "sec4_title": "4. UNIQA COLLECTION & RETENTION LEAD INTERJÚ-STRATÉGIA",
+  "sec3_kuria_title": "3.3. Kúriai Határozatok és Jogegységi Döntések (-2025)",
+  "kuria_rows": [
+    ["Ügyszám / Határozat", "Jogszabályi Hivatkozás", "Kúriai Döntés Lényege", "Vezetői & Operatív Relevancia"],
+    ["Pfv.III.20.145/2024/6.", "Ptk. 6:448. §", "30 napos póthatáridős felszólítás joghatályossága", "A felmondás csak igazolt kézbesítés esetén érvényes, a figyelmeztetésnek kógens kellékei vannak, különben a záradék semmis."],
+    ["Gfv.VII.30.210/2023/8.", "Gfbt. 34. §; Ptk. 6:525. §", "KGFB megtérítési igény (regressz) ittas vezetésnél", "A büntetőbírósági jogerős ítélet köti a polgári bíróságot; a biztosító mentesülése feltétlen, gyorsított FMH indítható."],
+    ["Pfv.V.21.089/2025/4.", "Ptk. 6:468. §", "Biztosítási követelések 1 éves elévülése", "A végrehajtási szakaszban kizárólag az érdemi kényszercselekmény szakítja meg az elévülést; az egyszerű hitelezői levél nem."],
+    ["Jpe.I.60.012/2024/5.", "Ptk. 6:102. §", "Fogyasztói ÁSZF tisztességtelensége", "Az egyoldalú, túlzó behajtási pótdíjak és adminisztrációs különdíjak semmisek; kizárólag a törvényes késedelmi kamat kérhető."]
+  ],
+  "sec3_bhgy_title": "3.4. BHGY Anonimizált Bírósági Precedensek (-2025)",
+  "bhgy_rows": [
+    ["Bíróság & Ügyszám", "Jogszabályhely", "Tényállás és Bírósági Döntés", "Operatív Intézkedés (Uniqa Lead)"],
+    ["Fővárosi Tszék\n26.P.22.451/2024/18.", "Vht. 41. §; Vht. 56. §", "Végrehajtási záradék törlése kézbesítési fikció megdőlése miatt.", "Zárt postai tértivevény- és digitális ügyfélkapu kézbesítési audit bevezetése peresítés előtt."],
+    ["Szegedi Ítélőtábla\nPf.II.20.188/2023/5.", "Gfbt. 34. § (1) b)", "5 millió Ft KGFB regressz megítélése ittas gépjárművezetővel szemben.", "A kárrendezési osztály közvetlen integrációja a jogi behajtási csoporttal a gyors megtérülésért."],
+    ["Győri Ítélőtábla\nPf.I.20.092/2024/9.", "Vht. 79/A. §; Vht. 92. §", "Téves folyószámla-inkasszó visszatérítése mentesített családi juttatásnál.", "Bankszámla-letiltás előtt jövedelem- és vagyoni scoring alkalmazása a kártérítési felelősség kizárására."],
+    ["Pécsi Törvényszék\n11.G.40.115/2023/14.", "Gfbt. 14. §; 22. §", "Fedezetlenségi díj fizetési kötelezettségének feltétlensége.", "Proaktív ügyféltájékoztatás a gépjármű eladása vagy forgalomból kivonása esetén az azonnali bejelentésről."],
+    ["Debreceni Tszék\n2.P.21.304/2025/11.", "2026. évi XVI. tv.", "Bírósági végrehajtás kötelező felfüggesztése fogyasztói hitelfedezetnél.", "Végrehajtási stop alatt önálló kockázati szerződés-újrakötés (mentőcsomag) felajánlása."]
+  ],
+  "sec3_sztfh_title": "3.5. SZTFH Végrehajtói és Árverési Rendeletek (2025–2026+)",
+  "sztfh_rows": [
+    ["Rendelet Száma", "Rendelet Hivatalos Címe", "Felügyeleti Jogkör", "Behajtási (Collection) Relevancia"],
+    ["11/2025. (XI. 26.)", "Végrehajtók ellenőrzésének részletes szabályai", "Önálló bírósági végrehajtók hivatali működésének és ügyvitelének vizsgálata.", "Szigorú hitelezői kontroll: az Uniqa panasszal élhet a végrehajtó tétlensége vagy elszámolási késedelme ellen."],
+    ["10/2026. (X. 8.)", "Árverési és felügyeleti díjrendelet harmonizáció", "Végrehajtási eljárási költségek és árverési normák terminológiai igazítása.", "Költségoptimalizálás: a végrehajtói díjjegyzékek szigorú tételes ellenőrzése a hitelezői költségcsökkentésért."],
+    ["13/2021. (X. 29.)", "Elektronikus Árverési Rendszer (EÁR) szabályai", "Ingatlan és nagy értékű ingó vagyontárgyak elektronikus árverése.", "Nagy összegű regresszkövetelések megtérülése az EÁR felületén keresztül történő kielégítésből."],
+    ["10/2021. (X. 29.)", "Végrehajtói panaszügyek eljárásrendje", "Végrehajtói intézkedések elleni hitelezői és adósi panaszok hatósági kezelése.", "Jogorvoslati védelem a végrehajtási cselekmények elhúzódása esetén."]
+  ],
+  "sec4_title": "4. TARTALMI VÁLTOZÁSOK ÉS INDOKOLÁSOK VEZETŐI ELEMZÉSE",
   "sec4_items": [
     {
-      "q": "Kérdés 1: Hogyan reagálna vezetőként a bírósági végrehajtás államosítására (1158/2026. Korm. hat.), ami átmenetileg növelheti a jogi behajtás átfutási idejét?",
-      "a": "Válaszstratégia: A hitelezői hatékonyságot a soft collection szakaszban kell megnyerni. Mivel a bírósági végrehajtói apparátus leterheltsége átmenetileg nő, három pillérre támaszkodom: 1) D+15 és D+45 napos prediktív scoring-alapú korai megkeresés, azonnali digitális részletfizetési opcióval; 2) FMH és záradékolási szűrés: csak a likvid vagyonnal rendelkező, nagy összegű díj- és regresszköveteléseket engedjük végrehajtásba, elkerülve a felesleges eljárási illetékek beragadását; 3) A külső jogi képviselőkkel kötött keretszerződésekben az átfutási időkhöz kötött mérföldkő-KPI-okat vezetünk be."
+      "title": "4.1. A bírósági végrehajtás átalakítása (1158/2026. Korm. határozat)",
+      "body": "A Kormány elrendelte a bírósági végrehajtási rendszer átfogó felülvizsgálatát azzal a deklarált céllal, hogy a végrehajtási tevékenység visszakerüljön a bírósági szervezetrendszeren belülre, profitorientációtól mentes közhatalmi formában. Biztosítói követeléskezelési szempontból ez azt jelenti, hogy az átállási időszakban a végrehajtási ügyhátralék megnőhet, a bírósági apparátus leterheltsége lassíthatja az eljárásokat. Ezért az Uniqa-nak a peren kívüli (soft collection) szakasz hatékonyságát kell maximalizálnia."
     },
     {
-      "q": "Kérdés 2: Milyen hatással van a 16/2026. MNB rendelet az Uniqa Retention (ügyfélmegtartási) folyamataira?",
-      "a": "Válaszstratégia: Az új MNB rendelet kötelezővé teszi a panaszkezelés digitalizálását és a 30 napos határidő szigorú betartását. A díjnemfizetés miatti megkeresések gyakran torkollnak panaszba (nem kapott csekket, vitatott kárkifizetés). Ha a Collection és a Panaszkezelés szétválik, az ügyfél elveszik. Vezetőként integrált folyamatot vezetek be: beérkező panasz esetén a jogi behajtási órát megállítjuk, az ügyfélportálon vagy appon keresztül 5 munkanapon belül közvetlen megoldást kínálunk (újrakötési ajánlattal párosítva), megelőzve a lapse rate emelkedését és az MNB bírságot."
+      "title": "4.2. Végrehajtási mentességek kiterjesztése (Vht. 92. § d-e pont és 92/A. §)",
+      "body": "A 2026. évi XIV. és XXXIII. törvények jelentősen kibővítették a bírósági végrehajtás alól teljes egészében mentesített juttatások körét: az állami iskolakezdési támogatás (100 000 Ft/gyermek) és az Otthontámogatás összege semmilyen követelés – így biztosítási díjtartozás vagy regressz – fejében nem vonható le. A számlavezető bankok hatósági átutalási megbízásnál ezt kötelesek figyelembe venni. A biztosítónak inkasszó előtt scoringgal kell szűrnie az állományt."
     },
     {
-      "q": "Kérdés 3: Hogyan kezeli a regressz-követeléseket és a hitelfedezeti állományokat a 2026. évi XVI. törvény alatti moratóriumban?",
-      "a": "Válaszstratégia: A fogyasztói hitelek végrehajtási tilalma kockázatot jelent a kapcsolódó hitelfedezeti élet- és vagyonbiztosítások díjfolytonosságára. Azonnali portfólió-auditot végzünk a bankszövetségi és partnerbanki kapcsolatokon keresztül. Az érintett szerződéseknél nem az agresszív jogi behajtást alkalmazzuk, hanem a 'Retention First' logikát: felvilágosítjuk az ügyfelet, hogy a hitel moratóriuma ellenére a fedezet fenntartása (akár díjcsökkentéssel vagy konstrukció-váltással) védi a vagyontárgyat, így az ügyfél lojalitása megmarad."
+      "title": "4.3. Fogyasztói moratórium és perfüggesztés (2026. évi XVI. törvény)",
+      "body": "A devizahiteles törvények hatálya alá tartozó szerződéseknél elrendelt kötelező bírósági perfüggesztés és végrehajtási stop közvetlenül érinti a kapcsolódó hitelfedezeti élet- és vagyonbiztosításokat. A biztosító érdeke a fedezet fennmaradása: a pereskedés leállítása mellett a szerződőt tájékoztatni kell a kockázati védelem önálló díjfizetéssel történő fenntartásának előnyeiről, elkerülve az automatikus díjtörlést."
+    },
+    {
+      "title": "4.4. Digitális panaszkezelés és fogyasztóvédelem (16/2026. MNB rendelet)",
+      "body": "A korábbi rendeletet felváltó új norma szigorú határidőket és kötelező digitális csatornákat ír elő a panaszok kezelésére. A díjnemfizetés miatti megkeresésekre érkező ügyfélpanaszok esetén a behajtási eljárást ideiglenesen felfüggesztjük, és a Retention specialisták 5 napon belül tisztázzák a problémát. Ez nemcsak a felügyeleti bírságot hárítja el, hanem közvetlenül védi a portfóliót."
+    }
+  ],
+  "sec5_title": "5. UNIQA COLLECTION & RETENTION LEAD INTERJÚ-STRATÉGIA & CHEAT SHEET",
+  "sec5_lead": "Az alábbiakban bemutatott 5 interjúkérdés és modell-válasz a jelölt követeléskezelési vezetői hátterére (CV: debt_HUN.pdf) és az Uniqa üzleti modelljére épülő, magabiztos, nyerő érvelést tartalmaz:",
+  "sec5_items": [
+    {
+      "q": "1. Kérdés: Hogyan reagálna vezetőként a bírósági végrehajtási rendszer nonprofit állami átalakítására (1158/2026. Korm. hat.), ami lassíthatja a követelésbehajtást?",
+      "a": "Modell-válasz: A jogszabályi trend egyértelmű: a hitelezőknek a soft collection szakaszban kell megnyerniük a megtérülést. Ha a bírósági végrehajtás átmenetileg lassul, az Uniqa-nál 3 pillérre építek: 1) D+15 és D+45 napos prémium soft collection korszerű szegmentációval és azonnali digitális részletfizetési alternatívával; 2) FMH és záradékolási szűrés: csak a likvid vagyonnal vagy igazolt munkabérrel rendelkező ügyeket visszük végrehajtásba, elkerülve a felesleges eljárási díjak beragadását; 3) A külső jogi képviselőkkel kötött keretszerződésekben átfutási időhöz és megtérüléshez kötött SLA-kat és sikerdíjas KPI-okat vezetünk be."
+    },
+    {
+      "q": "2. Kérdés: Milyen hatással van a 16/2026. MNB rendelet az Uniqa Retention (ügyfélmegtartási) folyamataira?",
+      "a": "Modell-válasz: Az új rendelet a panaszkezelés teljes digitalizálását és a 30 napos határidő szigorú betartását követeli meg. A díjnemfizetés miatti megkeresések gyakran torkollnak panaszba (pl. nem érkezett meg a csekk, vitatott kárrendezési levonás). Ha ezt silókban kezeljük, az ügyfél elveszik. Megoldásom a Collection és Panaszkezelés integrációja: ha panasz érkezik, a végrehajtási órát megállítjuk, ügyfélportálon vagy appon keresztül 5 napon belül tisztázzuk a kérdést, és azonnal megtartási/újrakötési ajánlattal élünk. Ez nullázza az MNB bírságkockázatot és drasztikusan javítja a lapse rate mutatót."
+    },
+    {
+      "q": "3. Kérdés: Hogyan garantálja a biztosító sikerét a Kúria és a bíróságok szigorú kézbesítési és alakisági gyakorlata (Ptk. 6:448. §, Pfv.III.20.145) mellett?",
+      "a": "Modell-válasz: A leggyakoribb pervesztési ok a bíróságokon a kézbesítési fikció megdőlése vagy a felmondó levél formai hibája. Ha a 30 napos póthatáridő nem igazolható, a záradékot a bíróság a Vht. 56. § alapján törli. Vezetőként zárt digitális láncolatot építek ki: a postai tértivevények elektronikus feldolgozása mellett az Uniqa portálján és hitelesített elektronikus csatornán is közöljük a felszólítást, így a bíróság előtt kétséget kizáróan bizonyítható a jogkövetkezményekre való figyelmeztetés."
+    },
+    {
+      "q": "4. Kérdés: Hogyan kezeli az MNB 13/2022. etikus követeléskezelési ajánlását az Uniqa behajtási gyakorlatában?",
+      "a": "Modell-válasz: Az MNB etikus követeléskezelési ajánlását nem korlátként, hanem a Retention leghatékonyabb eszközeként alkalmazom. A heti maximum 3 sikeres hívás szabályát a dialer rendszerbe épített automatikus számlálóval garantáljuk. A call center munkatársait pedig arra képezzük ki, hogy a késedelem okának feltárása után azonnal méltányossági részletfizetést vagy fedezetmódosítást ajánljanak fel, megelőzve a szerződés díjtörlését és a fedezetlenségi díj keletkezését."
+    },
+    {
+      "q": "5. Kérdés: Milyen eszközökkel gyorsítja fel a nagy összegű KGFB és Casco regresszek megtérülését az SZTFH felügyeleti keretében?",
+      "a": "Modell-válasz: A regresszköveteléseknél a legfőbb kockázat az 1 éves elévülés (Ptk. 6:468. §) és a vagyontalan adósok miatti költségveszteség. A büntetőbírósági jogerő (pl. ittas vezetés) napján automatikusan indítjuk az FMH-t, támaszkodva a Kúria döntéseire. A végrehajtási szakaszban pedig az SZTFH 11/2025. rendelet adta ellenőrzési jogkörrel élve folyamatosan auditáljuk a végrehajtók eljárását, és az Elektronikus Árverési Rendszeren (EÁR) keresztül azonnal bejelentkezünk az ingatlan- és gépjármű-kielégítési jogokért."
     }
   ]
 }
