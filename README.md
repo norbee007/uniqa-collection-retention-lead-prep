@@ -1,6 +1,6 @@
 # Uniqa Collection & Retention Lead – Jogszabályfigyelő és Döntéstámogató Rendszer (2026)
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](file:///CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](file:///CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20PowerShell-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/license-Internal%20%2F%20Proprietary-red.svg)]()
 
@@ -10,6 +10,8 @@
 
 ## 1. Főbb Képességek és Funkciók
 
+- **Személyre Szabott Vezetői Interjú Felkészítő Playbook (v2.1):** [docs/FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md](file:///docs/FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md) – 30 mp Executive Pitch, a Finance & Accounting csapatbeli szerepkör dekódolása, 10 éles STAR modellválasz, intelligens visszakérdezési stratégia (Reverse Interviewing) és 1 oldalas puskázó kártya.
+- **Interjú Szereplők és Döntéshozók Szakmai Dossziéja:** [docs/INTERJU_SZEREPLOK_DOSSSZIER.md](file:///docs/INTERJU_SZEREPLOK_DOSSSZIER.md) – Mészáros Petra (HR Generalist, ex-Grafton F&A) és Kiss Mariann / Pavel Kopylov (Számviteli és Pénzügyi Igazgatóság) szakmai háttere, motivációi és döntési szempontjai.
 - **Multidiszciplináris 5P Mester Prompt Rendszer (v2.0):** Vezetői és prompt engineering módszertan az MNB ajánlások, bírósági jogesetek (BHGY, Kúria) és SZTFH hatósági normák szisztematikus kinyerésére és behajtási/megtartási konvertálására.
 - **Részletes Adatforrás- és Rendszerspecifikáció:** [docs/SPECIFIKACIO_ES_ADATFORRASOK_V2.md](file:///docs/SPECIFIKACIO_ES_ADATFORRASOK_V2.md) a 4 pillér adatmodelljével (JSON schema), keresőszótárával és compliance garanciáival.
 - **Tételes Jogszabályi Lajstrom & Hatáselemzés:**
@@ -21,7 +23,7 @@
   - **SZTFH Végrehajtói Felügyelet:** Elektronikus Árverési Rendszer (EÁR) és végrehajtói díjrendeletek (10/2026. SZTFH rendelet).
 - **Vezetői Interjú-Stratégia & Cheat Sheet:**
   - Soft & Hard Collection folyamatábrák (Mermaid).
-  - Retention és Collection szinergiák (díjnemfizetés megelőzése, regressz behajtás).
+  - Retention és Collection szinergiák (díjnemfizetés megelőzése, technikai vs. valós nemfizetés szétválasztása).
   - Vezetői interjúkérdések, modell-válaszok és felügyeleti érvelési panelek.
 - **Automatizált Feed Letöltő & Dokumentumgeneráló:** PowerShell alapú közlöny-szűrő és COM-alapú Word (.docx) riportgenerátor.
 
@@ -32,12 +34,15 @@
 ```
 uniqa-collection-retention-lead-prep/
 │
-├── .gitignore                         # Szigorú adatbiztonsági szűrő (Zero Data Leak: CV-k, PDF-ek tiltása)
-├── README.md                          # Projekt Landing Page és rendszerleírás
-├── CHANGELOG.md                       # Verziótörténet (SemVer 2.0.0)
-├── run.bat                            # Gyökérszintű egykattintásos indító launcher (v2.0.0)
+├── .gitignore                         # Szigorú adatbiztonsági szűrő (Zero Data Leak: CV-k, profil PDF-ek tiltása)
+├── README.md                          # Projekt Landing Page és rendszerleírás (v2.1.0)
+├── CHANGELOG.md                       # Verziótörténet (SemVer 2.1.0)
+├── run.bat                            # Gyökérszintű 8-pontos interaktív launcher (v2.1.0)
 │
 ├── docs/
+│   ├── FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md # Személyre szabott vezetői interjú playbook és 10 STAR modellválasz
+│   ├── INTERJU_SZEREPLOK_DOSSSZIER.md     # Mészáros Petra (HR) és Kiss Mariann / F&A vezetés szakmai elemzése
+│   ├── uniqa_allas_hirdetes.pdf           # Hivatalos Uniqa álláshirdetés (Finance & Accounting)
 │   ├── SPECIFIKACIO_ES_ADATFORRASOK_V2.md # 4 pilléres rendszer- és adatforrás specifikáció
 │   ├── MESTER_PROMPT_V2_MULTI_SOURCE.md   # Bővített 5P Mester Prompt (MNB, BHGY, Kúria, SZTFH)
 │   ├── INTEGRALT_JOGFORRAS_PLAYBOOK_2026.md # Multidiszciplináris vezetői elemzés és interjú playbook
@@ -72,11 +77,16 @@ Futtasd a projekt gyökerében lévő launchert:
 ```cmd
 run.bat
 ```
-A konzolos menüben választható az RSS feed frissítése vagy a szakmai döntéstámogató dokumentáció megnyitása.
-
-### Manuális PowerShell Futtatás:
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\fetch_feed.ps1 -StartDate "2026-04-12" -EndDate "2026-11-05"
+A konzolos menüben választható az RSS feed frissítése, a scraperek indítása, vagy a szakmai döntéstámogató és interjú felkészítő dokumentáció közvetlen megnyitása:
+```
+[1] Magyar Kozlony RSS feed frissitese es szurese (PowerShell)
+[2] 4 Pilleres Multi-Scraper futtatasa (MNB, SZTFH, Kuria, BHGY aggregacio)
+[3] Szemelyre szabott Vezetoi Interju Felkeszito megnyitasa (STAR valaszok)
+[4] Interju Szereplok Dosszieja (Meszaros Petra HR es F&A Szakmai vezeto)
+[5] Integralt Jogforras Playbook v2.0 megtekintese (Markdown)
+[6] Word (.docx) osszefoglalo megnyitasa Microsoft Wordben
+[7] Word (.docx) ujrageneralas (PowerShell Word COM)
+[8] Kilepes
 ```
 
 ---
@@ -103,14 +113,27 @@ flowchart TD
 
 ---
 
-## 5. Adatbiztonsági Szabályzat (Zero Data Leak)
+## 5. Legfrissebb Kiadás (Release Highlights v2.1.0)
 
-A `.gitignore` szabályai garantálják, hogy a forráskód-tárba kizárólag a kód, a felkészítő dokumentáció és a nyilvános jogszabály-elemzések kerüljenek be. Minden személyes adat (pl. önéletrajzok, CV-k, PDF állományok, belső azonosítók) tiltva van a commitokból.
+* **Személyre szabott Vezetői Interjú Felkészítő Playbook:** 10 konkrét, éles STAR modellválasz, 30 másodperces Executive Pitch, visszakérdezési terv és 1-oldalas puskázó kártya.
+* **Döntéshozói Dosszié:** Mészáros Petra (HR) és Kiss Mariann / Pavel Kopylov (Finance & Accounting vezetés) mély szakmai és pszichológiai profilja.
+* **8-pontos kibővített Launcher (`run.bat`):** Egy kattintással megnyitható minden felkészítő dokumentum.
 
 ---
 
-## 6. Szerző és Licenc
+## 6. Adatbiztonsági Szabályzat (Zero Data Leak v2.1)
 
-- **Készült:** 2026. november 5.
-- **Célpozíció:** Uniqa – Collection & Retention Lead
-- **Verzió:** 1.0.0
+A `.gitignore` szigorúan kizárja a személyes dokumentumokat (önéletrajzok, CV-k, külső profilkivonatok, jelszavak, tokenek). A Git tárolóba kizárólag a forráskódok, a generáló scriptek és az anonimizált szakmai elemzések kerülnek feltöltésre.
+
+---
+
+## 7. Közreműködők / Contributors
+
+- **Teleki Norbert** – Projektgazda, folyamat- és követeléskezelési vezető, jogász
+- **Google Antigravity AI** – Rendszertervező, scraper architektúra és dokumentációs partner
+
+---
+
+## 8. Licenc
+
+Belső / Vállalati Döntéstámogató Rendszer © 2026 Teleki Norbert. Minden jog fenntartva.

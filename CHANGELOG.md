@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-11-08
+
+### 🚀 Új Funkciók (Features)
+- **Személyre szabott Vezetői Interjú Felkészítő Rendszer (`docs/FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md`)**:
+  - Teleki Norbert szakmai profiljára, 10+ éves pénzügyi és követeléskezelési tapasztalatára, 50 fős operatív vezetésére, 6 Mrd Ft-os számlaegyeztetési projektjére és Innovációs Díjas (18 RPA bot / 20% kapacitásbővítés) eredményeire szabott 30 másodperces Executive Elevator Pitch.
+  - A pozíció pénzügyi-számviteli (Finance & Accounting) mélyelemzése: a kintlévőség-kezelés eltolódása a peres behajtástól a díjkönyvelési/technikai hibák kiszűrése (60%) és a Soft Reminder / Retention (40%) felé.
+  - 10 kidolgozott, éles STAR modellválasz HR és Szakmai vezetői kérdésekre (számszerűsített eredményekkel, MNB 13/2022, 16/2026 rendeletekkel, 1158/2026 nonprofit végrehajtási reformmal és Vht. 92. § mentesítésekkel).
+  - Intelligens visszakérdezési stratégia (Reverse Interviewing) Mészáros Petrának és a Szakmai Vezetőnek.
+  - 1-oldalas Interjú Napi Puskázó Kártya (Quick-Glance Cheat Sheet).
+- **Interjú Szereplők és Döntéshozók Szakmai Dossziéja (`docs/INTERJU_SZEREPLOK_DOSSSZIER.md`)**:
+  - **Mészáros Petra (HR Generalist)**: Közel 6 éves Grafton Finance & Accounting toborzási múltjának, Corvinus MA (Vezetés és Szervezés) és NKE adóigazgatási végzettségének, HPTI kompetencia-értékelési modelljének feltárása.
+  - **Szakmai Vezetés (Finance & Accounting)**: Kiss Mariann (Számviteli rendért felelős vezető / Head of Accounting, MABISZ bizottsági tag) és Pavel Kopylov (CFO / Igazgatósági tag) elvárásainak, IFRS / Solvency II kintlévőségi tőkekövetelményeinek és folyamat-tisztasági igényeinek részletes profilja.
+
+### 🔒 Biztonság & Stabilitás (Security & Hardening)
+- **Zero Data Leak v2.1 Audit**: `.gitignore` kiterjesztése a személyes rekrúteri profilkivonatok (`*profile*.pdf`, `*recruiter*.pdf`) szűrésére, megelőzve az érzékeny adatok Git repóba kerülését.
+
+### ⚡ Rendszerintegráció & Launcher
+- **run.bat Kibővítése**: 8-pontos gyökérszintű interaktív launcher menü a felkészítő anyagok és döntéshozói profilok azonnali megnyitásával.
+
 ## [2.0.0] - 2026-11-06
 
 ### Added & Architecture Expansion

@@ -1,6 +1,8 @@
 # 1. Személyes dokumentumok, CV-k és érzékeny adatok kizárása (Zero Data Leak)
 CV*
 cv*
+*profile*.pdf
+*recruiter*.pdf
 *.tmp
 
 # 2. Rendszer- és munkamenet fájlok
