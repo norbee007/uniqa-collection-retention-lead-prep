@@ -8,7 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.1.0] - 2026-11-08
 
 ### 🚀 Új Funkciók (Features)
-- **Személyre szabott Vezetői Interjú Felkészítő Rendszer (`docs/FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md`)**:
+- **Teljes Körű Word (.docx) Dokumentum-Integráció**:
+  - Minden korábban `.md` formátumú felkészítő dokumentum natív, formázott Microsoft Word (`.docx`) kiadása elkészült Word COM technológiával.
+  - Uniqa arculati dizájn: Uniqa Blue (#00519E) és Navy (#0F2C59) fejlécek, formázott táblázatok, színezett blokkidézetek, kódkártyák.
+  - Generált dokumentumok:
+    - `docs/FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.docx`
+    - `docs/INTERJU_SZEREPLOK_DOSSSZIER.docx`
+    - `docs/INTEGRALT_JOGFORRAS_PLAYBOOK_2026.docx`
+    - `docs/VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.docx`
+  - Automatizációs szkriptek: `scripts/convert_md_to_docx.ps1` és `scripts/convert_all_md_to_docx.ps1`.
+- **Személyre szabott Vezetői Interjú Felkészítő Rendszer (`docs/FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md` és `.docx`)**:
   - Teleki Norbert szakmai profiljára, 10+ éves pénzügyi és követeléskezelési tapasztalatára, 50 fős operatív vezetésére, 6 Mrd Ft-os számlaegyeztetési projektjére és Innovációs Díjas (18 RPA bot / 20% kapacitásbővítés) eredményeire szabott 30 másodperces Executive Elevator Pitch.
   - A pozíció pénzügyi-számviteli (Finance & Accounting) mélyelemzése: a kintlévőség-kezelés eltolódása a peres behajtástól a díjkönyvelési/technikai hibák kiszűrése (60%) és a Soft Reminder / Retention (40%) felé.
   - 10 kidolgozott, éles STAR modellválasz HR és Szakmai vezetői kérdésekre (számszerűsített eredményekkel, MNB 13/2022, 16/2026 rendeletekkel, 1158/2026 nonprofit végrehajtási reformmal és Vht. 92. § mentesítésekkel).
@@ -22,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Zero Data Leak v2.1 Audit**: `.gitignore` kiterjesztése a személyes rekrúteri profilkivonatok (`*profile*.pdf`, `*recruiter*.pdf`) szűrésére, megelőzve az érzékeny adatok Git repóba kerülését.
 
 ### ⚡ Rendszerintegráció & Launcher
-- **run.bat Kibővítése**: 8-pontos gyökérszintű interaktív launcher menü a felkészítő anyagok és döntéshozói profilok azonnali megnyitásával.
+- **run.bat Frissítése**: 8-pontos gyökérszintű interaktív launcher menü, amely minden szakmai dokumentumot (Interjú felkészítő, Döntéshozói dosszié, Playbook, Közlöny riport) közvetlenül formázott Microsoft Word (.docx) alkalmazásban nyit meg Notepad (.md) helyett, valamint biztosítja a .docx fájlok kötegelt újragenerálását.
 
 ## [2.0.0] - 2026-11-06
 

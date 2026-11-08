@@ -40,23 +40,29 @@ uniqa-collection-retention-lead-prep/
 ├── run.bat                            # Gyökérszintű 8-pontos interaktív launcher (v2.1.0)
 │
 ├── docs/
-│   ├── FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md # Személyre szabott vezetői interjú playbook és 10 STAR modellválasz
-│   ├── INTERJU_SZEREPLOK_DOSSSZIER.md     # Mészáros Petra (HR) és Kiss Mariann / F&A vezetés szakmai elemzése
-│   ├── uniqa_allas_hirdetes.pdf           # Hivatalos Uniqa álláshirdetés (Finance & Accounting)
+│   ├── FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.docx # Formázott Word interjú playbook és 10 STAR modellválasz
+│   ├── FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md   # Markdown forrásdokumentum
+│   ├── INTERJU_SZEREPLOK_DOSSSZIER.docx   # Formázott Word döntéshozói dosszié (HR és Szakmai vezetés)
+│   ├── INTERJU_SZEREPLOK_DOSSSZIER.md     # Markdown döntéshozói elemzés
+│   ├── INTEGRALT_JOGFORRAS_PLAYBOOK_2026.docx # Formázott Word vezetői playbook és KPI mátrix
+│   ├── INTEGRALT_JOGFORRAS_PLAYBOOK_2026.md   # Markdown stratégiai playbook
+│   ├── VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.docx # Formázott Word közlöny jogszabály-elemzés
+│   ├── VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.md   # Markdown közlöny jogszabály-elemzés
+│   ├── Uniqa_Collection_Retention_Lead_Joganyag_2026.docx    # 5 fejezetes formázott Word szakmai riport
 │   ├── SPECIFIKACIO_ES_ADATFORRASOK_V2.md # 4 pilléres rendszer- és adatforrás specifikáció
 │   ├── MESTER_PROMPT_V2_MULTI_SOURCE.md   # Bővített 5P Mester Prompt (MNB, BHGY, Kúria, SZTFH)
-│   ├── INTEGRALT_JOGFORRAS_PLAYBOOK_2026.md # Multidiszciplináris vezetői elemzés és interjú playbook
-│   ├── VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.md # Közlöny-szintű 2026-os jogszabályi elemzés
-│   └── Uniqa_Collection_Retention_Lead_Joganyag_2026.docx # 5 fejezetes formázott Word riport táblázatokkal
+│   └── uniqa_allas_hirdetes.pdf           # Hivatalos Uniqa álláshirdetés (Finance & Accounting)
 │
 ├── scripts/
+│   ├── convert_all_md_to_docx.ps1     # Kötegelt Word COM (.docx) generátor minden dokumentumhoz
+│   ├── convert_md_to_docx.ps1         # Egyedi Markdown -> Formázott Word (.docx) konverter
+│   ├── generate_docx.ps1              # Word (.docx) automatikus 5 táblázatos generáló szkript (Word COM)
 │   ├── run_all_scrapers.ps1           # Fő adatbegyűjtő és aggregáló modul (271 jogforrás elem)
 │   ├── scrape_mnb.ps1                 # MNB felügyeleti ajánlások szűrője (2020-2026)
 │   ├── scrape_sztfh.ps1               # SZTFH végrehajtási és árverési rendeletek szűrője (2025-2026+)
 │   ├── scrape_kuria.ps1               # Kúriai határozatok és jogegységi döntések keresője (-2025)
 │   ├── scrape_bhgy.ps1                # BHGY anonimizált bírósági precedensek feldolgozója (-2025)
-│   ├── fetch_feed.ps1                 # Valós idejű Magyar Közlöny RSS feldolgozó szkript
-│   └── generate_docx.ps1              # Word (.docx) automatikus 5 táblázatos generáló szkript (Word COM)
+│   └── fetch_feed.ps1                 # Valós idejű Magyar Közlöny RSS feldolgozó szkript
 │
 └── data/
     ├── aggregated_legal_data.json     # Teljes aggregált adatbázis (271 tétel statisztikával)
