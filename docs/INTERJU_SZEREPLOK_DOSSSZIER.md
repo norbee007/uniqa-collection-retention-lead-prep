@@ -8,7 +8,7 @@
 
 ## 1. HR DÖNTÉSHOZÓ: MÉSZÁROS PETRA
 
-![Petra Mészáros Profile](meszaros_petra_hr_profile.pdf)
+* **Közvetlen LinkedIn profil:** [linkedin.com/in/petra-meszaros](https://www.linkedin.com/in/petra-meszaros)
 
 ### 1.1. Szakmai Háttér & Karrierút
 * **Jelenlegi pozíció:** **HR Generalist** – **UNIQA Biztosító Zrt.** (2026. július – jelenleg)
@@ -50,6 +50,7 @@ Az UNIQA Biztosító Zrt. szervezeti felépítése és az álláshirdetés szöv
 A szakmai interjún az alábbi vezetők egyike, vagy az általuk delegált Pénzügyi/Számviteli Osztályvezető képviseli a szakterületet:
 
 #### A) KISS MARIANN – Számviteli Rendért Felelős Vezető (Head of Accounting)
+* **LinkedIn elérhetőség:** [Keresés: Mariann Kiss UNIQA](https://www.linkedin.com/search/results/people/?keywords=Mariann%20Kiss%20UNIQA)
 * **Szervezeti szerepe:** Az UNIQA Biztosító Zrt. legfelsőbb számviteli vezetője (az MNB és a MABISZ hivatalos nyilvántartása szerinti számviteli rendért felelős vezető).
 * **Szakmai fókusz és felügyelet:**
   * Teljes körű biztosítási számvitel, biztosítástechnikai tartalékok és kintlévőségek könyvelése.
@@ -61,6 +62,7 @@ A szakmai interjún az alábbi vezetők egyike, vagy az általuk delegált Pénz
   * Adatpontosságot, számszaki fegyelmet és auditálhatóságot.
 
 #### B) PAVEL KOPYLOV – Igazgatósági Tag, Pénzügyi és Kockázatkezelési Igazgató (CFO)
+* **LinkedIn elérhetőség:** [Keresés: Pavel Kopylov UNIQA](https://www.linkedin.com/search/results/people/?keywords=Pavel%20Kopylov%20UNIQA)
 * **Szervezeti szerepe:** Az UNIQA Igazgatóságának pénzügyért és kockázatkezelésért (Finance, Actuarial, Risk, Controlling) felelős tagja.
 * **Szakmai fókusz:**
   * Nemzetközi cégcsoporti háttér (több mint 15 éves nemzetközi biztosítói tapasztalat).
