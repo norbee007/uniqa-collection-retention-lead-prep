@@ -41,7 +41,7 @@ foreach ($url in $searchUrls) {
                 $isVeghajtasi = $true
             }
 
-            $is2025Plus = ($title -match '/202[5-6]\.')
+            $is2025Plus = ($title -match '/202[5-9]\.')
 
             $results += [PSCustomObject]@{
                 id = "SZTFH-$($results.Count + 1)"

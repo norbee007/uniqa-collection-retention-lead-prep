@@ -1,4 +1,4 @@
-# scripts/scrape_mnb.ps1 - MNB Ajanlasok Scraper (2020-2026)
+﻿# scripts/scrape_mnb.ps1 - MNB Ajanlasok Scraper (2020-2026)
 param(
     [string]$OutputFile = "C:\Users\norbi\.gemini\PROJECTS\uniqa-collection-retention-lead-prep\data\mnb_recommendations.json"
 )
@@ -41,8 +41,8 @@ foreach ($m in $matches) {
     $pdf = $m.Groups[1].Value
     $text = $m.Groups[2].Value.Trim() -replace '\s+', ' '
 
-    # Filter years 2020-2026
-    if ($text -match '/(202[0-6])\.') {
+    # Filter years 2020+
+    if ($text -match '/(202[0-9])\.') {
         $year = $matches[1]
         
         # Check relevance
@@ -57,7 +57,7 @@ foreach ($m in $matches) {
 
         # Extract recommendation number
         $recNum = ""
-        if ($text -match '(\d+/202[0-6]\.\s*\([^)]+\))') {
+        if ($text -match '(\d+/202[0-9]\.\s*\([^)]+\))') {
             $recNum = $matches[1]
         }
 

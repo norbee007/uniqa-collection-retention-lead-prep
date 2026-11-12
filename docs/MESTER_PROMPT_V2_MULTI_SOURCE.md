@@ -26,10 +26,10 @@ Feladatod a magyar pénzügyi, biztosítási és végrehajtási jogrendszer 4 kr
 
 ## 3. PARAMETERS & BOUNDARIES (PARAMÉTEREK ÉS SZABÁLYOK)
 1. **Időbeli és forrásbeli határok:**
-   - MNB Ajánlások: 2020.01.01 – 2026.11.05.
+   - MNB Ajánlások: 2020.01.01 – napjainkig (mindig az aktuális lekérés napja / időpillanata)
    - BHGY Anonimizált Határozatok: 2015 – 2025.12.31.
    - Kúria Határozatok: 2015 – 2025.12.31.
-   - SZTFH Normák & Döntések: 2025.01.01 – 2026.11.05.
+   - SZTFH Normák & Döntések: 2025.01.01 – napjainkig (mindig az aktuális lekérés napja / időpillanata)
    - Alaptörvényi / Törvényi bázis: Vht. (1994. évi LIII. tv.), Ptk. (2013. évi V. tv.), Bit. (2014. évi LXXXVIII. tv.), Gfbt. (2009. évi LXII. tv.), 16/2026. MNB rendelet.
 2. **Kettős Fókusz Elve (Dual-Axis Impact):**
    Minden vizsgált jogforrásnál KÖTELEZŐ megadni:

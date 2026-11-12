@@ -24,6 +24,11 @@ $filesToConvert = @(
         Input = "$docsDir\VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.md"
         Output = "$docsDir\VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.docx"
         Title = "Birosagi Vegrehajtasi es Biztositasi Jogszabalyvaltozasok 2026"
+    },
+    @{
+        Input = "$docsDir\UNIQA_CEGBEMUTATO_ES_ERTEKEK_2026.md"
+        Output = "$docsDir\UNIQA_CEGBEMUTATO_ES_ERTEKEK_2026.docx"
+        Title = "UNIQA Biztosito - Vallalati Ertekek es Cegbemutato 2026"
     }
 )
 

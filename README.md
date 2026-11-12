@@ -1,6 +1,6 @@
 # Uniqa Collection & Retention Lead – Jogszabályfigyelő és Döntéstámogató Rendszer (2026)
 
-[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](file:///CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.1.1-blue.svg)](file:///CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20PowerShell-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/license-Internal%20%2F%20Proprietary-red.svg)]()
 
@@ -35,13 +35,15 @@
 uniqa-collection-retention-lead-prep/
 │
 ├── .gitignore                         # Szigorú adatbiztonsági szűrő (Zero Data Leak: CV-k, profil PDF-ek tiltása)
-├── README.md                          # Projekt Landing Page és rendszerleírás (v2.1.0)
-├── CHANGELOG.md                       # Verziótörténet (SemVer 2.1.0)
-├── run.bat                            # Gyökérszintű 8-pontos interaktív launcher (v2.1.0)
+├── README.md                          # Projekt Landing Page és rendszerleírás (v2.1.1)
+├── CHANGELOG.md                       # Verziótörténet (SemVer 2.1.1)
+├── run.bat                            # Gyökérszintű 9-pontos interaktív launcher (v2.1.1)
 │
 ├── docs/
 │   ├── FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.docx # Formázott Word interjú playbook és 10 STAR modellválasz
 │   ├── FELKESZITO_ANYAG_UNIQA_COLLECTION_RETENTION_LEAD.md   # Markdown forrásdokumentum
+│   ├── UNIQA_CEGBEMUTATO_ES_ERTEKEK_2026.docx # Formázott Word cégbemutató, értékek, küldetés és vezetői iránytű
+│   ├── UNIQA_CEGBEMUTATO_ES_ERTEKEK_2026.md   # Markdown cégbemutató és értékrend elemzés
 │   ├── INTERJU_SZEREPLOK_DOSSSZIER.docx   # Formázott Word döntéshozói dosszié (HR és Szakmai vezetés)
 │   ├── INTERJU_SZEREPLOK_DOSSSZIER.md     # Markdown döntéshozói elemzés
 │   ├── INTEGRALT_JOGFORRAS_PLAYBOOK_2026.docx # Formázott Word vezetői playbook és KPI mátrix
@@ -87,12 +89,13 @@ A konzolos menüben választható az RSS feed frissítése, a scraperek indítá
 ```
 [1] Magyar Kozlony RSS feed frissitese es szurese (PowerShell)
 [2] 4 Pilleres Multi-Scraper futtatasa (MNB, SZTFH, Kuria, BHGY aggregacio)
-[3] Szemelyre szabott Vezetoi Interju Felkeszito megnyitasa (STAR valaszok)
-[4] Interju Szereplok Dosszieja (Meszaros Petra HR es F&A Szakmai vezeto)
-[5] Integralt Jogforras Playbook v2.0 megtekintese (Markdown)
-[6] Word (.docx) osszefoglalo megnyitasa Microsoft Wordben
-[7] Word (.docx) ujrageneralas (PowerShell Word COM)
-[8] Kilepes
+[3] Vezetoi Interju Felkeszito megnyitasa Wordben (.docx)
+[4] Interju Szereplok Dosszieja megnyitasa Wordben (.docx)
+[5] Integralt Jogforras Playbook v2.0 megnyitasa Wordben (.docx)
+[6] Birosagi es Biztositasi Joganyag 2026 megnyitasa Wordben (.docx)
+[7] UNIQA Cegbemutato, Ertekek & Kuldetes megnyitasa Wordben (.docx)
+[8] Word (.docx) dokumentumok teljes ujragenerlasa (Word COM)
+[9] Kilepes
 ```
 
 ---

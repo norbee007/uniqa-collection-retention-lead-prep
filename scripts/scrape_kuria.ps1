@@ -1,4 +1,4 @@
-# scripts/scrape_kuria.ps1 - Kuria Hatarozatok & Jogegysegi Dontesek Scraper (-2025)
+﻿# scripts/scrape_kuria.ps1 - Kuria Hatarozatok & Jogegysegi Dontesek Scraper (-2025)
 param(
     [string]$OutputFile = "C:\Users\norbi\.gemini\PROJECTS\uniqa-collection-retention-lead-prep\data\kuria_decisions.json"
 )
@@ -53,7 +53,7 @@ foreach ($q in $queries) {
             if ($mNum.Success) {
                 $caseNum = $mNum.Groups[1].Value
             } else {
-                $mJpe = [regex]::Match($cleanText, '(\d+/202[0-6]\.\s*Jogegys[^\s]+ határozat)')
+                $mJpe = [regex]::Match($cleanText, '(\d+/202[0-9]\.\s*Jogegys[^\s]+ határozat)')
                 if ($mJpe.Success) { $caseNum = $mJpe.Groups[1].Value }
             }
 

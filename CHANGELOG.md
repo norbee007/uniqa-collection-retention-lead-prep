@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.1] - 2026-11-09
+
+### 🔧 Hibajavítás & Dinamikus Időkezelés (Bugfix & Dynamic Scheduling)
+- **Dinamikus Lekérdezési Végdátum**:
+  - Megszüntetve a `scripts/fetch_feed.ps1` szkriptben korábban beégetett statikus `2026-11-05` záró dátum.
+  - A szkript mostantól alapértelmezetten mindig dinamikusan a futtatás napját és időpillanatát (`(Get-Date)`) tekinti végdátumnak, így a legfrissebb közlönyök és indokolások (pl. MK 167. szám, Indokolások Tára 91. szám) azonnal és automatikusan bekerülnek a feldolgozásba.
+  - Opcionálisan egyedi dátum vagy időbélyeg továbbra is átadható a `-EndDate` paraméteren keresztül.
+- **Scraper Évszám-szűrők Jövőállósítása**:
+  - `scripts/scrape_mnb.ps1`, `scripts/scrape_sztfh.ps1` és `scripts/scrape_kuria.ps1` regex szűrői frissítve a teljes 2020-as évekre (`202[0-9]`), megelőzve az évváltáskori adatkimaradást.
+- **Dokumentáció & Mester Prompt Szinkronizáció**:
+  - `docs/MESTER_PROMPT_V2_MULTI_SOURCE.md` és `docs/VEGREHAJTASI_ES_BIZTOSITASI_JOGANYAG_2026_UNIQA.md` időbeli határai dinamikusra frissítve, a Word (`.docx`) kiadás újragenerálva.
+- **Új Átfogó Cégbemutató & Értékrend Vezetői Iránytű (`docs/UNIQA_CEGBEMUTATO_ES_ERTEKEK_2026.md` és `.docx`)**:
+  - 8 fejezetes, mélyreható döntéstámogató anyag a 2026-os felsővezetésről (Zubor Tibor vezérigazgató, Pavel Kopylov CFO), az UNIQA 3.0 Growing Impact stratégiáról, az 5 Guiding Principles (Customer First, Community, Integrity, Ownership, Simplicity) interjús alkalmazásáról és a Finance & Accounting szervezeti integrációról.
+  - Személyre szabott pszichológiai és kérdezési panelek Mészáros Petra (HR) és Kiss Mariann / Pavel Kopylov (F&A) interjúztatókhoz, valamint Teleki Norbert szakmai tapasztalatainak szinergikus becsatornázása.
+  - Launcher integráció: `run.bat` [7]-es pontja közvetlenül Wordben indítja az anyagot.
+
 ## [2.1.0] - 2026-11-08
 
 ### 🚀 Új Funkciók (Features)

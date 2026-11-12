@@ -4,6 +4,8 @@ cv*
 *profile*.pdf
 *recruiter*.pdf
 *.tmp
+~$*
+*.tmp.html
 
 # 2. Rendszer- és munkamenet fájlok
 .env

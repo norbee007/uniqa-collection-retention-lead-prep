@@ -1,11 +1,11 @@
-# BÍRÓSÁGI VÉGREHAJTÁSI ÉS BIZTOSÍTÁSI SZEKTORÁLIS JOGSZABÁLYVÁLTOZÁSOK (2026.04.12 – 2026.11.05)
+# BÍRÓSÁGI VÉGREHAJTÁSI ÉS BIZTOSÍTÁSI SZEKTORÁLIS JOGSZABÁLYVÁLTOZÁSOK (2026.04.12 – NAPJAINKIG)
 ## Felkészítő Vezetői Elemzés és Döntéstámogató Anyag – Uniqa Collection & Retention Lead
 
 ---
 
 ## VEZETŐI ÖSSZEFOGLALÓ (EXECUTIVE SUMMARY)
 
-A vizsgált időszakban (**2026. április 12. – 2026. november 5.**) a magyar jogalkotás mind a bírósági végrehajtási rendszerben, mind a pénzügyi és biztosítási szektor követeléskezelési és panaszkezelési környezetében fajsúlyos, stratégiai horderejű módosításokat vezetett be:
+A vizsgált időszakban (**2026. április 12. – napjainkig, mindig a lekérés aktuális időpillanatáig**) a magyar jogalkotás mind a bírósági végrehajtási rendszerben, mind a pénzügyi és biztosítási szektor követeléskezelési és panaszkezelési környezetében fajsúlyos, stratégiai horderejű módosításokat vezetett be:
 
 1. **Paradigmatikus fordulat a végrehajtási rendszer jövőjében:**
    A Kormány **1158/2026. (V. 18.) Korm. határozata** elrendelte a bírósági végrehajtási rendszer (1994. évi LIII. törvény - Vht.) teljes körű felülvizsgálatát azzal a deklarált céllal, hogy a végrehajtás a **bíróságok szervezetrendszerén belülre kerüljön vissza, profitorientációtól mentesen**. Ez a biztosítói hard collection stratégiát alapjaiban érinti: fel kell készülni a független bírósági végrehajtói (MBVK) modell államosítására és átalakulására.
@@ -20,7 +20,7 @@ A vizsgált időszakban (**2026. április 12. – 2026. november 5.**) a magyar 
 
 ---
 
-## I. TÉTÉLES JOGSZABÁLYVÁLTOZÁSI LAJSTROM (2026.04.12 – 2026.11.05)
+## I. TÉTÉLES JOGSZABÁLYVÁLTOZÁSI LAJSTROM (2026.04.12 – NAPJAINKIG)
 
 | Közlöny száma & Dátum | Jogszabály száma & Címe | Módosított alaptörvény / szakasz | Hatálybalépés dátuma | Fő szabályozási tárgy | Biztosítási & Végrehajtási relevanciája *(ha van: részletesen; ha nincs: ÜRES)* |
 |---|---|---|---|---|---|

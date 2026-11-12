@@ -52,7 +52,7 @@
         "is_high_relevance":  false,
         "matched_topics":  "",
         "collection_impact":  "LOW",
-        "retention_impact":  "LOW"
+        "retention_impact":  "HIGH"
     },
     {
         "id":  "MNB-6",
@@ -250,7 +250,7 @@
         "is_high_relevance":  false,
         "matched_topics":  "",
         "collection_impact":  "LOW",
-        "retention_impact":  "LOW"
+        "retention_impact":  "HIGH"
     },
     {
         "id":  "MNB-24",
@@ -283,7 +283,7 @@
         "is_high_relevance":  false,
         "matched_topics":  "",
         "collection_impact":  "HIGH",
-        "retention_impact":  "LOW"
+        "retention_impact":  "HIGH"
     },
     {
         "id":  "MNB-27",
@@ -382,7 +382,7 @@
         "is_high_relevance":  false,
         "matched_topics":  "",
         "collection_impact":  "HIGH",
-        "retention_impact":  "LOW"
+        "retention_impact":  "HIGH"
     },
     {
         "id":  "MNB-36",
@@ -1383,7 +1383,7 @@
         "is_high_relevance":  false,
         "matched_topics":  "",
         "collection_impact":  "LOW",
-        "retention_impact":  "LOW"
+        "retention_impact":  "HIGH"
     },
     {
         "id":  "MNB-127",
@@ -1482,7 +1482,7 @@
         "is_high_relevance":  false,
         "matched_topics":  "",
         "collection_impact":  "LOW",
-        "retention_impact":  "LOW"
+        "retention_impact":  "HIGH"
     },
     {
         "id":  "MNB-136",
